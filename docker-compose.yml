@@ -1,0 +1,29 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:${APP_PORT:-8080}:80"
+    environment:
+      DB_PASSWORD: ${DB_PASSWORD:?Execute o preparo do ambiente}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Execute o preparo do ambiente}
+      AI_API_KEY: ${AI_API_KEY:-}
+      AI_MODEL: ${AI_MODEL:-nvidia/nemotron-3.5-super-vl:free}
+    depends_on:
+      db:
+        condition: service_healthy
+  db:
+    image: mariadb:11.4
+    environment:
+      MARIADB_DATABASE: reintegrafacil
+      MARIADB_USER: reintegrafacil
+      MARIADB_PASSWORD: ${DB_PASSWORD:?Execute o preparo do ambiente}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Execute o preparo do ambiente}
+    volumes:
+      - dados:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+volumes:
+  dados:

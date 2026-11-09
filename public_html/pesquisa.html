@@ -1,0 +1,1762 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24231f">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Questionário de pesquisa de necessidades ReintegraFacil sem identificação solicitada sobre acesso a informações e serviços de reintegração social.">
+  <title>Pesquisa ReintegraFacil | Questionário de necessidades</title>
+  <style>
+    [hidden] { display: none !important; }
+    :root {
+      --black: #24231f;
+      --black-soft: #35332d;
+      --ink: #2e2d28;
+      --muted: #6e6a60;
+      --paper: #f8f5ee;
+      --paper-deep: #efe9dc;
+      --white: #fffdf8;
+      --gold: #d9a21b;
+      --gold-pale: #fbf2d9;
+      --line: #ded7c8;
+      --green: #566e5f;
+      --red: #b95c3d;
+      --max-width: 1180px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-width: 320px;
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.55;
+      text-rendering: optimizeLegibility;
+    }
+
+    body::before {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background-image: linear-gradient(135deg, rgba(217, 162, 27, 0.07) 1px, transparent 1px);
+      background-size: 28px 28px;
+      content: "";
+      mask-image: linear-gradient(to bottom, black, transparent 70%);
+      pointer-events: none;
+    }
+
+    a,
+    button {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    .page-width {
+      width: min(var(--max-width), calc(100% - 64px));
+      margin: 0 auto;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: 12px;
+      left: 12px;
+      z-index: 30;
+      padding: 10px 14px;
+      background: var(--gold);
+      color: var(--black);
+      font-weight: 800;
+      text-decoration: none;
+      transform: translateY(-160%);
+      transition: transform 160ms ease;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .site-header {
+      border-bottom: 1px solid var(--line);
+      background: rgba(248, 245, 238, 0.96);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      min-height: 86px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--black);
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+      flex: 0 0 auto;
+    }
+
+    .brand-name {
+      display: flex;
+      flex-direction: column;
+      line-height: 0.98;
+    }
+
+    .brand-name strong,
+    h1,
+    h2,
+    h3,
+    legend,
+    .button,
+    .section-kicker,
+    .hero-meta,
+    .step-label,
+    .option-title,
+    .question-title,
+    .back-link {
+      font-family: "Arial Narrow", "Roboto Condensed", Impact, Arial, sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .brand-name strong {
+      font-size: 1.12rem;
+      letter-spacing: -0.035em;
+    }
+
+    .brand-name span {
+      margin-top: 5px;
+      color: var(--gold);
+      font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+      font-size: 0.61rem;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--black);
+      font-size: 0.74rem;
+      letter-spacing: 0.1em;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      color: var(--gold);
+    }
+
+    .back-link svg {
+      width: 17px;
+      height: 17px;
+    }
+
+    .research-hero {
+      position: relative;
+      overflow: hidden;
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .research-hero::after {
+      position: absolute;
+      right: -75px;
+      bottom: -125px;
+      width: 360px;
+      height: 360px;
+      border: 1px solid rgba(217, 162, 27, 0.42);
+      border-radius: 50%;
+      content: "";
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+      gap: clamp(40px, 9vw, 120px);
+      align-items: center;
+      min-height: 395px;
+      padding-top: 74px;
+      padding-bottom: 74px;
+    }
+
+    .section-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      color: var(--gold);
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
+      line-height: 1.1;
+    }
+
+    .section-kicker::before {
+      width: 31px;
+      height: 3px;
+      flex: 0 0 auto;
+      background: currentColor;
+      content: "";
+    }
+
+    .hero-copy h1 {
+      max-width: 700px;
+      margin: 0 0 22px;
+      font-size: clamp(3rem, 6vw, 6.2rem);
+      letter-spacing: -0.065em;
+      line-height: 0.92;
+    }
+
+    .hero-copy h1 span {
+      color: var(--gold);
+    }
+
+    .hero-lead {
+      max-width: 640px;
+      margin: 0;
+      color: #d9d4ca;
+      font-size: clamp(1rem, 1.7vw, 1.15rem);
+      line-height: 1.7;
+    }
+
+    .hero-meta {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding: 24px;
+      border: 1px solid #514e45;
+      background: rgba(255, 255, 255, 0.04);
+      color: #e8e2d7;
+      font-size: 0.76rem;
+      letter-spacing: 0.09em;
+      line-height: 1.3;
+    }
+
+    .hero-meta div {
+      display: grid;
+      grid-template-columns: 38px 1fr;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .hero-meta strong {
+      display: grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      color: var(--gold);
+      font-size: 0.78rem;
+    }
+
+    .survey-wrap {
+      position: relative;
+      z-index: 2;
+      margin-top: -38px;
+      padding-bottom: 100px;
+    }
+
+    .survey-card {
+      padding: clamp(25px, 5vw, 58px);
+      border: 1px solid var(--line);
+      background: var(--white);
+      box-shadow: 0 24px 70px rgba(36, 35, 31, 0.14);
+    }
+
+    .survey-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 38px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .survey-heading h2 {
+      max-width: 680px;
+      margin: 0 0 12px;
+      font-size: clamp(2.1rem, 4vw, 4rem);
+      letter-spacing: -0.06em;
+      line-height: 0.95;
+    }
+
+    .survey-heading h2 span {
+      color: var(--gold);
+    }
+
+    .survey-heading p:not(.section-kicker) {
+      max-width: 650px;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .progress-area {
+      margin-bottom: 42px;
+    }
+
+    .progress-track {
+      height: 7px;
+      overflow: hidden;
+      background: var(--paper-deep);
+    }
+
+    .progress-value {
+      width: 25%;
+      height: 100%;
+      background: var(--gold);
+      transition: width 180ms ease;
+    }
+
+    .step-labels {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-top: 13px;
+    }
+
+    .step-label {
+      color: #aaa59a;
+      font-size: 0.67rem;
+      letter-spacing: 0.07em;
+      line-height: 1.2;
+    }
+
+    .step-label.is-active {
+      color: var(--black);
+    }
+
+    .step-label.is-done {
+      color: var(--green);
+    }
+
+    .form-step[hidden],
+    .success-state[hidden] {
+      display: none;
+    }
+
+    .form-step {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+
+    .form-step legend {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 0;
+      color: var(--black);
+      font-size: clamp(1.7rem, 3vw, 2.8rem);
+      letter-spacing: -0.045em;
+      line-height: 1;
+    }
+
+    .step-intro {
+      max-width: 700px;
+      margin: 0 0 28px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .question-group {
+      margin: 31px 0 0;
+    }
+
+    .question-title {
+      margin: 0 0 13px;
+      color: var(--black-soft);
+      font-size: 0.81rem;
+      letter-spacing: 0.07em;
+      line-height: 1.35;
+    }
+
+    .question-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 13px;
+    }
+
+    .question-title-row .question-title {
+      margin: 0;
+    }
+
+    .speak-button {
+      display: inline-flex;
+      min-height: 34px;
+      flex: 0 0 auto;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .speak-button svg {
+      width: 16px;
+      height: 16px;
+      flex: 0 0 auto;
+    }
+
+    .speak-button span {
+      display: inline !important;
+      margin: 0 !important;
+      color: inherit !important;
+      font-size: inherit !important;
+      font-weight: inherit !important;
+    }
+
+    .speak-button:hover,
+    .speak-button.is-active {
+      border-color: var(--gold);
+      background: var(--gold-pale);
+      color: var(--black);
+    }
+
+    .text-label-row {
+      display: flex !important;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 7px !important;
+    }
+
+    .text-label-row > span:first-child {
+      margin: 0 !important;
+    }
+
+    .text-label-row .speak-button {
+      margin-left: auto;
+    }
+
+    .field-help {
+      margin: -5px 0 13px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .option-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .option-grid.three {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .option-card {
+      position: relative;
+      display: block;
+      min-height: 68px;
+      cursor: pointer;
+    }
+
+    .option-card input {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+    }
+
+    .option-content {
+      display: flex;
+      min-height: 68px;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      color: var(--ink);
+      transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+    }
+
+    .option-number {
+      display: grid;
+      width: 22px;
+      height: 22px;
+      flex: 0 0 auto;
+      place-items: center;
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      color: var(--black);
+      font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+      font-size: 0.7rem;
+      font-weight: 900;
+    }
+
+    .option-content::before {
+      display: grid;
+      width: 18px;
+      height: 18px;
+      flex: 0 0 auto;
+      place-items: center;
+      border: 1px solid #aaa59a;
+      border-radius: 50%;
+      color: var(--black);
+      content: "";
+      font-size: 0.74rem;
+      font-weight: 900;
+    }
+
+    .option-card input[type="checkbox"] + .option-content::before {
+      border-radius: 3px;
+    }
+
+    .option-card input:checked + .option-content {
+      border-color: var(--gold);
+      background: var(--gold-pale);
+      transform: translateY(-2px);
+    }
+
+    .option-card input:checked + .option-content .option-number {
+      background: var(--gold);
+    }
+
+    .option-card input:checked + .option-content::before {
+      border-color: var(--gold);
+      background: var(--gold);
+      content: "✓";
+    }
+
+    .option-card input:focus-visible + .option-content {
+      outline: 3px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    .option-title {
+      font-size: 0.78rem;
+      letter-spacing: 0.035em;
+      line-height: 1.25;
+    }
+
+    .option-description {
+      display: none;
+    }
+
+    .consent-box,
+    .privacy-box {
+      margin-top: 28px;
+      padding: 19px 20px;
+      border-left: 4px solid var(--gold);
+      background: var(--gold-pale);
+    }
+
+    .privacy-box {
+      border-left-color: var(--green);
+      background: #e9efe9;
+    }
+
+    .consent-box p,
+    .privacy-box p {
+      margin: 0;
+      color: var(--ink-soft, #4d4a42);
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+
+    .consent-check {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-top: 16px;
+      cursor: pointer;
+      color: var(--black);
+      font-size: 0.88rem;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+
+    .consent-check input {
+      width: 19px;
+      height: 19px;
+      flex: 0 0 auto;
+      margin-top: 1px;
+      accent-color: var(--gold);
+    }
+
+    .rating-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 8px;
+      max-width: 620px;
+    }
+
+    .rating-option {
+      position: relative;
+      display: block;
+      cursor: pointer;
+    }
+
+    .rating-option input {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      opacity: 0;
+    }
+
+    .rating-content {
+      display: grid;
+      min-height: 66px;
+      place-items: center;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      color: var(--black);
+      text-align: center;
+    }
+
+    .rating-number {
+      font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+      font-size: 1.2rem;
+      font-weight: 900;
+    }
+
+    .rating-word {
+      display: block;
+      color: var(--muted);
+      font-size: 0.65rem;
+      line-height: 1.2;
+    }
+
+    .rating-option input:checked + .rating-content {
+      border-color: var(--gold);
+      background: var(--gold);
+    }
+
+    .rating-option input:focus-visible + .rating-content {
+      outline: 3px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    .text-field {
+      display: block;
+      margin-top: 11px;
+    }
+
+    .text-field span {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 700;
+    }
+
+    select,
+    textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 0;
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    select {
+      min-height: 50px;
+      padding: 0 14px;
+    }
+
+    textarea {
+      min-height: 130px;
+      resize: vertical;
+      padding: 14px;
+      line-height: 1.55;
+    }
+
+    select:focus,
+    textarea:focus {
+      border-color: var(--gold);
+      outline: 3px solid rgba(217, 162, 27, 0.25);
+      outline-offset: 2px;
+    }
+
+    .counter {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 0.71rem;
+      text-align: right;
+    }
+
+    .step-error {
+      min-height: 22px;
+      margin: 22px 0 0;
+      color: var(--red);
+      font-size: 0.86rem;
+      font-weight: 700;
+    }
+
+    .step-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-top: 37px;
+      padding-top: 25px;
+      border-top: 1px solid var(--line);
+    }
+
+    .step-count {
+      color: var(--muted);
+      font-size: 0.78rem;
+    }
+
+    .action-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 0 21px;
+      border: 2px solid var(--gold);
+      border-radius: 999px;
+      font-size: 0.73rem;
+      letter-spacing: 0.08em;
+      line-height: 1;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+    }
+
+    .button {
+      background: var(--gold);
+      color: var(--black);
+      cursor: pointer;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button:disabled {
+      cursor: wait;
+      opacity: 0.62;
+      transform: none;
+    }
+
+    .button.secondary {
+      border-color: var(--black);
+      background: transparent;
+      color: var(--black);
+    }
+
+    .button.secondary:hover {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .button svg {
+      width: 17px;
+      height: 17px;
+    }
+
+    .success-state {
+      padding: 31px;
+      border: 1px solid var(--gold);
+      background: var(--gold-pale);
+      text-align: center;
+    }
+
+    .success-mark {
+      display: grid;
+      width: 58px;
+      height: 58px;
+      margin: 0 auto 16px;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--gold);
+      color: var(--black);
+      font-size: 1.7rem;
+      font-weight: 900;
+    }
+
+    .success-state h2 {
+      margin: 0 0 9px;
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      letter-spacing: -0.045em;
+    }
+
+    .success-state p {
+      max-width: 570px;
+      margin: 0 auto 21px;
+      color: var(--muted);
+    }
+
+    .voice-status {
+      min-height: 0;
+      margin: 8px 0 0;
+      color: var(--green);
+      font-size: 0.76rem;
+    }
+
+    .voice-status:empty {
+      display: none;
+    }
+
+    .site-footer {
+      padding: 35px 0 40px;
+      background: var(--black);
+      color: #aaa59a;
+      font-size: 0.76rem;
+    }
+
+    .footer-inner {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .footer-brand {
+      color: var(--white);
+      font-family: "Arial Narrow", "Roboto Condensed", Arial, sans-serif;
+      font-size: 1rem;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .footer-inner p {
+      max-width: 520px;
+      margin: 7px 0 0;
+      line-height: 1.6;
+    }
+
+    .footer-link {
+      color: #e6e0d4;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--gold);
+      outline-offset: 4px;
+    }
+
+    @media (max-width: 760px) {
+      .page-width {
+        width: min(var(--max-width), calc(100% - 32px));
+      }
+
+      .header-inner {
+        min-height: 74px;
+      }
+
+      .brand-name strong {
+        font-size: 0.98rem;
+      }
+
+      .brand-name span {
+        font-size: 0.53rem;
+      }
+
+      .back-link {
+        font-size: 0.65rem;
+      }
+
+      .hero-grid {
+        display: block;
+        min-height: 0;
+        padding-top: 60px;
+        padding-bottom: 65px;
+      }
+
+      .hero-copy h1 {
+        font-size: clamp(2.55rem, 12vw, 4.2rem);
+        line-height: 0.94;
+      }
+
+      .hero-copy h1 span {
+        display: block;
+        letter-spacing: -0.08em;
+    }
+
+      .hero-meta {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        margin-top: 36px;
+        padding: 14px;
+      }
+
+      .hero-meta div {
+        display: block;
+      }
+
+      .hero-meta strong {
+        margin-bottom: 8px;
+      }
+
+      .hero-meta div span {
+        display: block;
+        font-size: 0.62rem;
+      }
+
+      .survey-wrap {
+        margin-top: -25px;
+        padding-bottom: 65px;
+      }
+
+      .survey-heading {
+        display: block;
+      }
+
+      .option-grid,
+      .option-grid.three {
+        grid-template-columns: 1fr;
+      }
+
+      .rating-grid {
+        gap: 5px;
+      }
+
+      .rating-content {
+        min-height: 61px;
+      }
+
+      .rating-word {
+        font-size: 0.57rem;
+      }
+
+      .step-actions,
+      .footer-inner {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .action-group {
+        flex-direction: column-reverse;
+      }
+
+      .action-group .button {
+        width: 100%;
+      }
+
+    }
+
+    @media (max-width: 430px) {
+      .header-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+        padding: 14px 0;
+      }
+
+      .back-link {
+        align-self: flex-end;
+      }
+
+      .hero-meta {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-meta div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .hero-meta strong {
+        margin-bottom: 0;
+      }
+
+      .survey-card {
+        padding: 24px 18px;
+      }
+
+      .survey-heading h2 {
+        font-size: 2.45rem;
+      }
+
+      .form-step legend {
+        font-size: 2rem;
+      }
+
+      .rating-word {
+        display: none;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    .brand-name > span, #questionario-title > span { color:#765309; }
+    html.survey-contrast .brand-name > span, html.survey-contrast #questionario-title > span { color:#000; }
+
+    /* Leitura, foco e mensagens sem alterar os dados da pesquisa. */
+    :root { font-size: 17px; --red: #982f19; --muted: #59564d; --line:#8b877c; }
+    .survey-heading .section-kicker { color:#765309; }
+    .option-content::before { border-color:#6d6b62; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; border:0; }
+    .header-inner { flex-wrap:wrap; gap:14px 24px; padding:16px 0; }
+    .survey-access { display:flex; gap:10px; flex-wrap:wrap; }
+    .survey-access button { font:700 .82rem Arial,sans-serif; min-height:44px; padding:9px 12px; border:1px solid #777; color:var(--ink); background:var(--white); cursor:pointer; }
+    .survey-access button[aria-pressed="true"] { border:2px solid var(--black); background:var(--gold-pale); }
+    .form-step { min-inline-size:0; }
+    h1,h2,h3,legend,.footer-brand { overflow-wrap:anywhere; }
+    .hero-copy h1,.hero-copy h1 span { max-width:100%; }
+    .form-step legend { max-width:100%; width:100%; white-space:normal; }
+    .step-labels { grid-template-columns:repeat(4,minmax(0,1fr)); }
+    .step-label { color:#615d53; min-width:0; overflow-wrap:anywhere; }
+    .option-content>span:last-child { min-width:0; overflow-wrap:anywhere; }
+    .question-group { min-width:0; }
+    p,label,.hero-meta span { overflow-wrap:anywhere; }
+    .question-title-row>*,.text-label-row>* { min-width:0; max-width:100%; }
+    .question-title { max-width:100%; overflow-wrap:anywhere; }
+    .section-kicker { display:block; max-width:100%; overflow-wrap:anywhere; }
+    .section-kicker::before { display:inline-block; vertical-align:middle; margin-right:10px; }
+    .consent-check>span { min-width:0; overflow-wrap:anywhere; }
+    .option-title { font-size:1rem; line-height:1.5; letter-spacing:0; }
+    .question-title { font-size:1.05rem; line-height:1.5; }
+    .option-content { min-height:76px; }
+    .option-number { font-size:.85rem; min-width:26px; height:26px; }
+    .rating-word { display:block; font-size:.85rem; line-height:1.5; overflow-wrap:anywhere; }
+    .rating-number { font-size:1.4rem; }
+    .rating-content { min-height:110px; }
+    .text-label-row label { color:var(--ink); font-size:1rem; line-height:1.5; font-weight:700; }
+    .text-label-row .speak-button { margin-left:0; }
+    .text-field { min-width:0; }
+    .text-field select,.text-field textarea { font-size:1rem; }
+    .text-field .counter,.field-hint { font-size:.85rem; color:var(--muted); line-height:1.6; }
+    .field-hint { margin:10px 0 0; }
+    .field-error { color:var(--red); font-size:.95rem; line-height:1.6; font-weight:700; padding:10px 12px; border-left:4px solid var(--red); background:#fff4ef; margin:12px 0 0; }
+    .step-error { color:var(--red); font-size:1rem; line-height:1.6; }
+    .question-group[aria-invalid="true"],.consent-box[aria-invalid="true"],.privacy-box[aria-invalid="true"] { outline:2px solid var(--red); outline-offset:7px; }
+    .option-card input:focus-visible + .option-content,.rating-option input:focus-visible + .rating-content { outline:3px solid #005fcc; outline-offset:4px; }
+    :focus-visible { outline:3px solid #005fcc; outline-offset:4px; }
+    [tabindex="-1"]:focus { outline:3px solid #005fcc; outline-offset:5px; }
+    button,a,select,textarea,input,legend { scroll-margin-block:28px; }
+    .button,.speak-button { min-height:48px; font-size:.85rem; }
+    .button { line-height:1.4; white-space:normal; }
+    .consent-check { min-height:44px; align-items:center; }
+    .consent-check input { width:24px; height:24px; flex:0 0 24px; }
+    .brand-name { min-width:0; overflow-wrap:anywhere; }
+    html.survey-large { font-size:21px; }
+    html.survey-contrast { --paper:#fff; --paper-deep:#fff; --white:#fff; --black:#000; --black-soft:#000; --ink:#000; --muted:#222; --red:#8b0000; --line:#555; --gold:#ffdf00; --gold-pale:#fff6b5; --green:#244b2e; }
+    html.survey-contrast .site-header,html.survey-contrast .survey-card { background:#fff; }
+    html.survey-contrast .option-content,html.survey-contrast .rating-content,html.survey-contrast select,html.survey-contrast textarea { border-color:#000; }
+    html.survey-contrast .privacy-box { background:#fff; border-color:#000; }
+    html.survey-contrast .field-error { background:#fff; }
+    @media(max-width:760px) { .step-labels { grid-template-columns:repeat(2,minmax(0,1fr)); } .rating-grid { grid-template-columns:repeat(2,minmax(0,1fr)); max-width:none; gap:12px; } .header-inner { padding:14px 0; } .survey-access { width:100%; } .survey-access button { flex:1; } .question-title-row,.text-label-row { flex-wrap:wrap; gap:10px; } .option-content { padding:13px; gap:9px; } .step-actions { align-items:stretch; flex-direction:column; gap:12px; } .action-group { flex-wrap:wrap; } .action-group .button { flex:1; padding:10px 14px; } }
+    @media(max-width:430px) { .brand { max-width:100%; } .back-link { min-height:44px; } .option-title { font-size:1rem; } .survey-card { padding-inline:19px; } .step-count { font-size:.85rem; } .question-title { font-size:1rem; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto!important; } *,*::before,*::after { animation:none!important; transition:none!important; scroll-behavior:auto!important; } }
+  </style>
+<link rel="icon" type="image/svg+xml" href="/assets/identidade/favicon.svg?v=20261108-1"><link rel="stylesheet" href="/assets/identidade/marca.css?v=20261108-1">
+</head>
+<body id="top">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" aria-label="Cabeçalho da pesquisa">
+    <div class="page-width header-inner">
+      <a class="rf-brand brand" href="index.html" aria-label="ReintegraFacil, voltar à landing page"><img class="rf-logo" src="/assets/identidade/reintegrafacil.svg?v=20261108-1" width="340" height="88" alt="ReintegraFacil" decoding="async"></a>
+      <a class="back-link" href="index.html">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" /></svg>
+        Voltar ao site
+      </a>
+      <div class="survey-access" role="group" aria-label="Ajustar a leitura do questionário"><button type="button" id="surveyFont" aria-pressed="false">A+ Letra maior</button><button type="button" id="surveyContrast" aria-pressed="false">Mais contraste</button></div>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <section class="research-hero" aria-labelledby="research-title">
+      <div class="page-width hero-grid">
+        <div class="hero-copy">
+          <p class="section-kicker">Pesquisa de necessidades</p>
+          <h1 id="research-title">Ajude a melhorar o <span>ReintegraFacil.</span></h1>
+          <p class="hero-lead">Responda perguntas sobre informação, estudo, trabalho e apoio. São quatro etapas, no seu tempo.</p>
+        </div>
+
+        <aside class="hero-meta" aria-label="Informações importantes da pesquisa">
+          <div><strong>4</strong><span>etapas, no seu tempo</span></div>
+          <div><strong>+</strong><span>participação voluntária</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="page-width survey-wrap" aria-labelledby="questionario-title">
+      <div class="survey-card">
+        <div class="survey-heading">
+          <div>
+            <p class="section-kicker">Questionário de opinião</p>
+            <h2 id="questionario-title">Sua opinião <span>ajuda.</span></h2>
+            <p>Não há resposta certa. A participação é voluntária. Para continuar, responda às perguntas desta etapa; as ideias da última etapa são opcionais.</p>
+          </div>
+        </div>
+
+        <div class="progress-area" aria-label="Progresso do questionário">
+          <div class="progress-track" role="progressbar" aria-label="Etapa atual do questionário" aria-valuemin="1" aria-valuemax="4" aria-valuenow="1" aria-valuetext="Etapa 1 de 4" id="progressTrack">
+            <div class="progress-value" id="progressValue"></div>
+          </div>
+          <div class="step-labels" aria-hidden="true">
+            <span class="step-label is-active">01 · Perfil</span>
+            <span class="step-label">02 · Acesso</span>
+            <span class="step-label">03 · Necessidades</span>
+            <span class="step-label">04 · Ideias</span>
+          </div>
+        </div>
+
+        <form id="surveyForm" novalidate>
+          <fieldset class="form-step" data-step="0">
+            <legend tabindex="-1">Quem está respondendo?</legend>
+            <p class="step-intro">Escolha a opção que melhor representa sua situação.</p>
+
+            <div class="question-group">
+              <p class="question-title">Quem está respondendo?</p>
+              <div class="option-grid">
+                <label class="option-card"><input type="radio" name="respondent_type" value="pessoa_privada_liberdade"><span class="option-content"><span><span class="option-title">Pessoa atualmente privada de liberdade</span><span class="option-description">Respondendo sobre sua própria experiência.</span></span></span></label>
+                <label class="option-card"><input type="radio" name="respondent_type" value="pessoa_egressa"><span class="option-content"><span><span class="option-title">Pessoa que já deixou o sistema prisional</span><span class="option-description">Respondendo sobre seu recomeço.</span></span></span></label>
+                <label class="option-card"><input type="radio" name="respondent_type" value="familiar_responsavel"><span class="option-content"><span><span class="option-title">Familiar ou responsável</span><span class="option-description">Acompanhando alguém nessa trajetória.</span></span></span></label>
+                <label class="option-card"><input type="radio" name="respondent_type" value="profissional_apoiador"><span class="option-content"><span><span class="option-title">Profissional ou pessoa apoiadora</span><span class="option-description">Atuando em atendimento, educação ou apoio.</span></span></span></label>
+                <label class="option-card"><input type="radio" name="respondent_type" value="prefiro_nao_responder"><span class="option-content"><span><span class="option-title">Prefiro não responder</span></span></span></label>
+              </div>
+            </div>
+
+            <div class="question-group">
+              <p class="question-title">Para esta pesquisa, você tem 18 anos ou mais?</p>
+              <div class="option-grid">
+                <label class="option-card"><input type="radio" name="adult_confirmation" value="sim"><span class="option-content"><span class="option-title">Sim, tenho 18 anos ou mais</span></span></label>
+                <label class="option-card"><input type="radio" name="adult_confirmation" value="nao"><span class="option-content"><span class="option-title">Não</span></span></label>
+              </div>
+            </div>
+
+            <div class="consent-box">
+              <p id="surveyConsentInfo"><strong>Participação voluntária, sem identificação solicitada.</strong> Não informe nome, CPF, processo, crime, unidade, endereço ou telefone. Você pode interromper antes de enviar, sem prejuízo. As respostas são usadas na pesquisa acadêmica; não há promessa de atendimento ou benefício.</p>
+              <label class="consent-check"><input type="checkbox" name="participation_consent" value="sim" aria-describedby="surveyConsentInfo"><span>Aceito participar de forma voluntária, sem informar minha identificação.</span></label>
+            </div>
+
+            <p tabindex="-1" class="step-error" id="stepError0" role="alert" aria-live="polite"></p>
+            <div class="step-actions">
+              <span class="step-count">Etapa 1 de 4</span>
+              <div class="action-group"><button class="button" type="button" data-next>Continuar <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" /></svg></button></div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-step" data-step="1" hidden>
+            <legend tabindex="-1">Como você acessa informação?</legend>
+            <p class="step-intro">Marque o que se aplica a você.</p>
+
+            <div class="question-group">
+              <p class="question-title">Como você acessa a internet?</p>
+              <div class="option-grid three">
+                <label class="option-card"><input type="radio" name="internet_access" value="todos_os_dias"><span class="option-content"><span class="option-title">Todos os dias</span></span></label>
+                <label class="option-card"><input type="radio" name="internet_access" value="algumas_vezes_semana"><span class="option-content"><span class="option-title">Algumas vezes por semana</span></span></label>
+                <label class="option-card"><input type="radio" name="internet_access" value="raramente"><span class="option-content"><span class="option-title">Raramente</span></span></label>
+                <label class="option-card"><input type="radio" name="internet_access" value="nao_acesso"><span class="option-content"><span class="option-title">Não acesso</span></span></label>
+                <label class="option-card"><input type="radio" name="internet_access" value="alguem_acessa_por_mim"><span class="option-content"><span class="option-title">Alguém acessa por mim</span></span></label>
+              </div>
+            </div>
+
+            <div class="question-group">
+              <p class="question-title">Quais dispositivos você usa? Marque todos.</p>
+              <div class="option-grid">
+                <label class="option-card"><input type="checkbox" name="devices" value="celular"><span class="option-content"><span class="option-title">Celular</span></span></label>
+                <label class="option-card"><input type="checkbox" name="devices" value="computador"><span class="option-content"><span class="option-title">Computador ou notebook</span></span></label>
+                <label class="option-card"><input type="checkbox" name="devices" value="dispositivo_compartilhado"><span class="option-content"><span class="option-title">Dispositivo compartilhado</span></span></label>
+                <label class="option-card"><input type="checkbox" name="devices" value="nao_sei_usar"><span class="option-content"><span class="option-title">Preciso de ajuda para usar</span></span></label>
+              </div>
+            </div>
+
+            <div class="question-group">
+              <p class="question-title">Sobre o que você precisa de informação? Marque todos.</p>
+              <div class="option-grid">
+                <label class="option-card"><input type="checkbox" name="main_needs" value="documentos"><span class="option-content"><span class="option-title">Documentos</span></span></label>
+                <label class="option-card"><input type="checkbox" name="main_needs" value="estudo"><span class="option-content"><span class="option-title">Estudo</span></span></label>
+                <label class="option-card"><input type="checkbox" name="main_needs" value="qualificacao"><span class="option-content"><span class="option-title">Cursos e qualificação</span></span></label>
+                <label class="option-card"><input type="checkbox" name="main_needs" value="trabalho"><span class="option-content"><span class="option-title">Trabalho e renda</span></span></label>
+                <label class="option-card"><input type="checkbox" name="main_needs" value="apoio"><span class="option-content"><span class="option-title">Apoio social, saúde ou direitos</span></span></label>
+                <label class="option-card"><input type="checkbox" name="main_needs" value="outro"><span class="option-content"><span class="option-title">Outro assunto</span></span></label>
+              </div>
+            </div>
+
+            <p tabindex="-1" class="step-error" id="stepError1" role="alert" aria-live="polite"></p>
+            <div class="step-actions">
+              <span class="step-count">Etapa 2 de 4</span>
+              <div class="action-group"><button class="button secondary" type="button" data-prev>Voltar</button><button class="button" type="button" data-next>Continuar <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" /></svg></button></div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-step" data-step="2" hidden>
+            <legend tabindex="-1">O que mais dificulta o caminho?</legend>
+            <p class="step-intro">O que mais atrapalha encontrar ajuda?</p>
+
+            <div class="question-group">
+              <p class="question-title">Quais são as dificuldades? Marque todas.</p>
+              <div class="option-grid">
+                <label class="option-card"><input type="checkbox" name="obstacles" value="nao_sei_onde_procurar"><span class="option-content"><span class="option-title">Não sei onde procurar</span></span></label>
+                <label class="option-card"><input type="checkbox" name="obstacles" value="internet_dificil"><span class="option-content"><span class="option-title">Internet ou sinal ruim</span></span></label>
+                <label class="option-card"><input type="checkbox" name="obstacles" value="linguagem_dificil"><span class="option-content"><span class="option-title">Linguagem difícil</span></span></label>
+                <label class="option-card"><input type="checkbox" name="obstacles" value="medo_desconfianca"><span class="option-content"><span class="option-title">Medo ou desconfiança</span></span></label>
+                <label class="option-card"><input type="checkbox" name="obstacles" value="informacao_desatualizada"><span class="option-content"><span class="option-title">Informação desatualizada</span></span></label>
+                <label class="option-card"><input type="checkbox" name="obstacles" value="preciso_de_ajuda"><span class="option-content"><span class="option-title">Preciso de alguém para ajudar</span></span></label>
+                <label class="option-card"><input type="checkbox" name="obstacles" value="outro"><span class="option-content"><span class="option-title">Outro obstáculo</span></span></label>
+              </div>
+            </div>
+
+            <div class="question-group">
+              <p class="question-title">Um site com passo a passo seria fácil de usar?</p>
+              <div class="rating-grid">
+                <label class="rating-option"><input type="radio" name="clarity_expectation" value="1"><span class="rating-content"><span><span class="rating-number">1</span><span class="rating-word">muito difícil</span></span></span></label>
+                <label class="rating-option"><input type="radio" name="clarity_expectation" value="2"><span class="rating-content"><span><span class="rating-number">2</span><span class="rating-word">difícil</span></span></span></label>
+                <label class="rating-option"><input type="radio" name="clarity_expectation" value="3"><span class="rating-content"><span><span class="rating-number">3</span><span class="rating-word">mais ou menos</span></span></span></label>
+                <label class="rating-option"><input type="radio" name="clarity_expectation" value="4"><span class="rating-content"><span><span class="rating-number">4</span><span class="rating-word">fácil</span></span></span></label>
+                <label class="rating-option"><input type="radio" name="clarity_expectation" value="5"><span class="rating-content"><span><span class="rating-number">5</span><span class="rating-word">muito fácil</span></span></span></label>
+              </div>
+            </div>
+
+            <div class="question-group">
+              <p class="question-title">O que você gostaria de encontrar? Marque todos.</p>
+              <div class="option-grid">
+                <label class="option-card"><input type="checkbox" name="desired_features" value="passo_a_passo"><span class="option-content"><span class="option-title">Passo a passo simples</span></span></label>
+                <label class="option-card"><input type="checkbox" name="desired_features" value="links_oficiais"><span class="option-content"><span class="option-title">Links oficiais e confiáveis</span></span></label>
+                <label class="option-card"><input type="checkbox" name="desired_features" value="busca_por_cidade"><span class="option-content"><span class="option-title">Busca por cidade</span></span></label>
+                <label class="option-card"><input type="checkbox" name="desired_features" value="checklist_documentos"><span class="option-content"><span class="option-title">Checklist de documentos</span></span></label>
+                <label class="option-card"><input type="checkbox" name="desired_features" value="vagas_cursos"><span class="option-content"><span class="option-title">Vagas e cursos</span></span></label>
+                <label class="option-card"><input type="checkbox" name="desired_features" value="acessibilidade"><span class="option-content"><span class="option-title">Áudio, contraste e letra maior</span></span></label>
+              </div>
+            </div>
+
+            <p tabindex="-1" class="step-error" id="stepError2" role="alert" aria-live="polite"></p>
+            <div class="step-actions">
+              <span class="step-count">Etapa 3 de 4</span>
+              <div class="action-group"><button class="button secondary" type="button" data-prev>Voltar</button><button class="button" type="button" data-next>Continuar <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" /></svg></button></div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-step" data-step="3" hidden>
+            <legend tabindex="-1">Que ideia você deixaria?</legend>
+            <p class="step-intro">Se quiser, deixe uma ideia.</p>
+
+            <div class="question-group">
+              <div class="text-field"><label for="firstPriority">Qual recurso deve aparecer primeiro? (opcional)</label><select id="firstPriority" name="first_priority"><option value="">Escolha uma opção (opcional)</option><option value="documentos">Documentos</option><option value="estudo">Estudo</option><option value="qualificacao">Cursos</option><option value="trabalho">Trabalho</option><option value="apoio">Apoio social e direitos</option><option value="outro">Outro</option></select></div>
+            </div>
+
+            <div class="question-group">
+              <div class="text-field"><label for="suggestion">Que melhoria você sugere? (opcional)</label><textarea id="suggestion" name="suggestion" maxlength="600" aria-describedby="suggestionHint suggestionCount" placeholder="Resposta opcional"></textarea><p class="field-hint" id="suggestionHint">Até 600 caracteres. Evite informações que identifiquem você ou outra pessoa.</p><p class="field-hint" id="dictationHint">Ditar é opcional e depende do navegador e da sua permissão. O serviço de voz do navegador pode receber o áudio. Confira o texto antes de enviar.</p><span class="counter" id="suggestionCount"><span id="suggestionCounter">0</span> de 600 caracteres</span></div>
+            </div>
+
+            <div class="privacy-box">
+              <p id="researchUseInfo"><strong>Uso acadêmico:</strong> respostas agrupadas e sem identificação. Ficam salvas no banco da pesquisa.</p>
+              <label class="consent-check"><input type="checkbox" name="research_use_consent" value="sim" aria-describedby="researchUseInfo"><span>Autorizo o uso desta resposta de forma agrupada e sem identificação na pesquisa acadêmica.</span></label>
+            </div>
+
+            <p tabindex="-1" class="step-error" id="stepError3" role="alert" aria-live="polite"></p>
+            <div class="step-actions">
+              <span class="step-count">Etapa 4 de 4</span>
+              <div class="action-group"><button class="button secondary" type="button" data-prev>Voltar</button><button class="button" type="submit">Salvar resposta <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" /></svg></button></div>
+            </div>
+          </fieldset>
+        </form>
+
+        <section class="success-state" id="successState" hidden aria-live="polite">
+          <div class="success-mark" aria-hidden="true">✓</div>
+          <h2 tabindex="-1">Resposta salva. Obrigado.</h2>
+          <p>Sua contribuição foi registrada para análise agrupada na pesquisa.</p>
+          <button class="button" id="newResponseButton" type="button">Registrar outra resposta</button>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-width footer-inner">
+      <div>
+        <a class="rf-brand " href="/" aria-label="ReintegraFacil, página inicial"><img class="rf-logo" src="/assets/identidade/reintegrafacil.svg?v=20261108-1" width="340" height="88" alt="ReintegraFacil" decoding="async"></a><p>Pesquisa de necessidades</p>
+        <p>Projeto acadêmico. A participação é voluntária e segue as orientações da pesquisa apresentadas no formulário.</p>
+      </div>
+      <a class="footer-link" href="index.html">Voltar para o ReintegraFacil</a>
+    </div>
+  </footer>
+
+  <script>
+    (() => {
+      'use strict';
+
+      const API_URL = 'api/pesquisa.php';
+      const makeSubmissionKey = () => Array.from(crypto.getRandomValues(new Uint8Array(16)), byte => byte.toString(16).padStart(2, '0')).join('');
+      let submissionKey = makeSubmissionKey();
+      const form = document.getElementById('surveyForm');
+      const steps = [...document.querySelectorAll('.form-step')];
+      const stepLabels = [...document.querySelectorAll('.step-label')];
+      const progressValue = document.getElementById('progressValue');
+      const progressTrack = document.getElementById('progressTrack');
+      const successState = document.getElementById('successState');
+      const newResponseButton = document.getElementById('newResponseButton');
+      const conflictRestart = document.createElement('button');
+      conflictRestart.type = 'button'; conflictRestart.hidden = true;
+      conflictRestart.className = 'button'; conflictRestart.textContent = 'Começar outra resposta';
+      form.append(conflictRestart);
+      conflictRestart.addEventListener('click', resetForNewResponse);
+      const suggestion = document.getElementById('suggestion');
+      const suggestionCounter = document.getElementById('suggestionCounter');
+      const submitButton = form.querySelector('button[type="submit"]');
+      const voiceStatus = document.createElement('p');
+      voiceStatus.className = 'voice-status';
+      voiceStatus.setAttribute('role', 'status');
+      voiceStatus.setAttribute('aria-live', 'polite');
+      form.insertAdjacentElement('afterend', voiceStatus);
+      let currentStep = 0;
+
+      function valueOf(name) {
+        const field = form.querySelector(`[name="${name}"]`);
+        if (!field) return '';
+        if (field.type === 'radio' || field.type === 'checkbox') {
+          const checked = form.querySelector(`[name="${name}"]:checked`);
+          return checked ? checked.value : '';
+        }
+        return field.value.trim();
+      }
+
+      function valuesOf(name) {
+        return [...form.querySelectorAll(`[name="${name}"]:checked`)].map((field) => field.value);
+      }
+
+      const requiredQuestions = new Set(['respondent_type','adult_confirmation','internet_access','devices','main_needs','obstacles','clarity_expectation','desired_features']);
+      const fieldErrors = new Map();
+      const focusAndReveal = element => {
+        if (!element) return;
+        element.focus({ preventScroll: true });
+        element.scrollIntoView({ block: 'center', behavior: 'instant' });
+      };
+      const describe = (field, id, add) => {
+        const ids = new Set((field.getAttribute('aria-describedby') || '').split(/\s+/).filter(Boolean));
+        if (add) ids.add(id); else ids.delete(id);
+        if (ids.size) field.setAttribute('aria-describedby', [...ids].join(' ')); else field.removeAttribute('aria-describedby');
+      };
+      document.querySelectorAll('.question-group,.consent-box,.privacy-box').forEach((group, groupIndex) => {
+        const controls = [...group.querySelectorAll('input,select,textarea')];
+        if (!controls.length) return;
+        const name = controls[0].name;
+        const title = group.querySelector('.question-title');
+        if (title) {
+          title.id = 'question-' + name;
+          group.setAttribute('role', controls[0].type === 'radio' ? 'radiogroup' : 'group');
+          group.setAttribute('aria-labelledby', title.id);
+          if (controls[0].type === 'radio' && requiredQuestions.has(name)) group.setAttribute('aria-required','true');
+        }
+        if (controls[0].type === 'radio' && requiredQuestions.has(name)) controls.forEach(field => field.required = true);
+        if (['participation_consent','research_use_consent'].includes(name)) controls[0].required = true;
+        const error = document.createElement('p'); error.id = 'field-error-' + name; error.className = 'field-error'; error.hidden = true;
+        const errorAnchor=group.querySelector('.option-grid,.rating-grid,.consent-check');
+        if(errorAnchor && errorAnchor.parentElement===group) group.insertBefore(error,errorAnchor); else group.append(error);
+        fieldErrors.set(name, { group, controls, error });
+        controls.forEach((field,index) => { if (!field.id) field.id = name + '-' + (index + 1); });
+      });
+      function clearFieldError(name) {
+        const entry = fieldErrors.get(name); if (!entry) return;
+        entry.error.hidden = true; entry.error.textContent = ''; entry.group.removeAttribute('aria-invalid');
+        entry.controls.forEach(field => { field.removeAttribute('aria-invalid'); describe(field,entry.error.id,false); });
+      }
+      function setStepError(stepIndex, message, fieldName = '') {
+        const error = document.getElementById(`stepError${stepIndex}`);
+        if (!message) { if (error) error.textContent = ''; return; }
+        const entry = fieldErrors.get(fieldName);
+        if (entry) {
+          entry.error.textContent = message; entry.error.hidden = false; entry.group.setAttribute('aria-invalid','true');
+          entry.controls.forEach(field => { field.setAttribute('aria-invalid','true'); describe(field,entry.error.id,true); });
+          if (error) { error.setAttribute('role','status'); error.setAttribute('aria-live','polite'); error.textContent = 'Há uma resposta para conferir nesta etapa.'; }
+          focusAndReveal(entry.controls[0]);
+        } else if (error) {
+          error.setAttribute('role','alert'); error.setAttribute('aria-live','assertive'); error.textContent = message; focusAndReveal(error);
+        }
+      }
+      function clearStepError(stepIndex) {
+        const step = steps[stepIndex]; if (!step) return;
+        setStepError(stepIndex, '');
+        new Set([...step.querySelectorAll('[name]')].map(field => field.name)).forEach(clearFieldError);
+      }
+      form.addEventListener('change',event => { if (event.target.name) clearFieldError(event.target.name); });
+      function validateStep(stepIndex) {
+        clearStepError(stepIndex);
+        let message = '', field = '';
+        if (stepIndex === 0) {
+          if (!valueOf('respondent_type')) { field='respondent_type'; message='Escolha quem está respondendo para continuar.'; }
+          else if (valueOf('adult_confirmation') !== 'sim') { field='adult_confirmation'; message='Esta pesquisa é destinada a pessoas com 18 anos ou mais. Se você não tem essa idade, não continue.'; }
+          else if (valueOf('participation_consent') !== 'sim') { field='participation_consent'; message='Se quiser participar, marque o consentimento depois de ler a explicação. Você também pode sair sem responder.'; }
+        } else if (stepIndex === 1) {
+          if (!valueOf('internet_access')) { field='internet_access'; message='Escolha uma opção sobre seu acesso à internet.'; }
+          else if (!valuesOf('devices').length) { field='devices'; message='Escolha pelo menos um dispositivo ou a opção que melhor representa sua situação.'; }
+          else if (!valuesOf('main_needs').length) { field='main_needs'; message='Escolha pelo menos um assunto que você gostaria de encontrar.'; }
+        } else if (stepIndex === 2) {
+          if (!valuesOf('obstacles').length) { field='obstacles'; message='Escolha pelo menos uma dificuldade ou obstáculo.'; }
+          else if (!valueOf('clarity_expectation')) { field='clarity_expectation'; message='Escolha uma nota de 1 a 5 para a facilidade esperada.'; }
+          else if (!valuesOf('desired_features').length) { field='desired_features'; message='Escolha pelo menos um recurso desejado.'; }
+        } else if (stepIndex === 3 && valueOf('research_use_consent') !== 'sim') { field='research_use_consent'; message='Para enviar, autorize o uso agrupado desta resposta na pesquisa. Se não quiser autorizar, você pode sair sem enviar.'; }
+        if (message) { setStepError(stepIndex,message,field); return false; }
+        return true;
+      }
+
+      function showStep(stepIndex, focusHeading) {
+        stopSpeech();
+        stopListening();
+        currentStep = Math.max(0, Math.min(stepIndex, steps.length - 1));
+        steps.forEach((step, index) => {
+          step.hidden = index !== currentStep;
+        });
+        stepLabels.forEach((label, index) => {
+          label.classList.toggle('is-active', index === currentStep);
+          label.classList.toggle('is-done', index < currentStep);
+        });
+        const percentage = ((currentStep + 1) / steps.length) * 100;
+        progressValue.style.width = `${percentage}%`;
+        progressTrack.setAttribute('aria-valuenow', String(currentStep + 1));
+        progressTrack.setAttribute('aria-valuetext', `Etapa ${currentStep + 1} de ${steps.length}`);
+        const heading = steps[currentStep].querySelector('legend');
+        if (focusHeading && heading) focusAndReveal(heading);
+      }
+
+      function createResponse() {
+        return {
+          version: 1,
+          submission_key: submissionKey,
+          respondent_type: valueOf('respondent_type'),
+          adult_confirmation: valueOf('adult_confirmation'),
+          participation_consent: valueOf('participation_consent'),
+          internet_access: valueOf('internet_access'),
+          devices: valuesOf('devices'),
+          main_needs: valuesOf('main_needs'),
+          obstacles: valuesOf('obstacles'),
+          clarity_expectation: valueOf('clarity_expectation'),
+          desired_features: valuesOf('desired_features'),
+          first_priority: valueOf('first_priority'),
+          suggestion: valueOf('suggestion'),
+          research_use_consent: valueOf('research_use_consent'),
+        };
+      }
+
+      function resetForNewResponse() {
+        conflictRestart.hidden = true;
+        submissionKey = makeSubmissionKey();
+        form.reset();
+        form.hidden = false;
+        successState.hidden = true;
+        currentStep = 0;
+        steps.forEach((step, index) => {
+          step.hidden = index !== 0;
+          clearStepError(index);
+        });
+        suggestionCounter.textContent = '0';
+        showStep(0, true);
+        voiceStatus.textContent = '';
+      }
+
+
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        if (submitButton.disabled || !validateStep(currentStep)) return;
+        if (currentStep < steps.length - 1) { showStep(currentStep + 1, true); return; }
+
+        stopSpeech();
+        stopListening();
+        const response = createResponse();
+        const temporarilyDisabled=[...form.querySelectorAll('input,select,textarea,[data-next],[data-prev]')].filter(field=>!field.disabled);
+        temporarilyDisabled.forEach(field=>field.disabled=true);
+        form.setAttribute('aria-busy','true');
+        voiceStatus.textContent='Enviando sua resposta. Aguarde.';
+        submitButton.disabled = true;
+        submitButton.setAttribute('aria-busy', 'true');
+        submitButton.dataset.originalText = submitButton.textContent.trim();
+        submitButton.childNodes[0].textContent = 'Enviando resposta ';
+
+        try {
+          const result = await fetch(API_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(response),
+          });
+          const body = await result.text();
+          let payload = null;
+          try {
+            payload = body ? JSON.parse(body) : null;
+          } catch (parseError) {
+            throw new Error('Não foi possível confirmar o envio. Suas respostas continuam aqui. Tente novamente.');
+          }
+          if (result.status === 409) conflictRestart.hidden = false;
+          if (!result.ok || !payload || !payload.success) {
+            throw new Error(payload?.error || `Não foi possível registrar agora (HTTP ${result.status}).`);
+          }
+
+          voiceStatus.textContent = '';
+          form.hidden = true;
+          successState.hidden = false;
+          focusAndReveal(successState.querySelector('h2'));
+        } catch (error) {
+          voiceStatus.textContent='';
+          setStepError(currentStep, error instanceof TypeError ? 'Não foi possível conectar. Suas respostas continuam aqui. Confira a conexão e tente novamente.' : (error instanceof Error ? error.message : 'Não foi possível registrar agora. Suas respostas foram mantidas. Tente novamente.'));
+        } finally {
+          temporarilyDisabled.forEach(field=>field.disabled=false);
+          form.removeAttribute('aria-busy');
+          submitButton.disabled = false;
+          submitButton.removeAttribute('aria-busy');
+          submitButton.childNodes[0].textContent = 'Salvar resposta ';
+        }
+      });
+
+      function setVoiceStatus(message) {
+        voiceStatus.textContent = message;
+      }
+
+      function createSpeakButton(label, speechText = label) {
+        const button = document.createElement('button');
+        button.className = 'speak-button';
+        button.type = 'button';
+        button.dataset.speak = speechText;
+        button.setAttribute('aria-label', `Ouvir: ${label}`);
+        button.setAttribute('aria-pressed', 'false');
+        button.innerHTML = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 14h4l5 4V6L8 10H4v4Zm13.5-5.5a5 5 0 0 1 0 7M16 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" /></svg><span>Ouvir</span>';
+        return button;
+      }
+
+      function createDictationButton(target) {
+        const button = document.createElement('button');
+        button.className = 'speak-button';
+        button.type = 'button';
+        button.dataset.dictate = 'true';
+        button.setAttribute('aria-label', 'Ditar resposta');
+        button.setAttribute('aria-describedby','dictationHint');
+        button.setAttribute('aria-pressed', 'false');
+        button.innerHTML = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="8" y="3" width="8" height="12" rx="4" stroke="currentColor" stroke-width="1.8" /><path d="M5 11a7 7 0 0 0 14 0M12 18v3M9 21h6" stroke="currentColor" stroke-linecap="round" stroke-width="1.8" /></svg><span>Ditar</span>';
+        button.addEventListener('click', (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          dictate(target, button);
+        });
+        return button;
+      }
+
+      let activeSpeechButton = null;
+      let activeRecognition = null;
+      let speechGeneration = 0;
+      function stopListening() {
+        const old=activeRecognition; activeRecognition=null;
+        if(old){try{old.abort();}catch(_){}}
+        document.querySelectorAll('[data-dictate]').forEach(button=>{button.classList.remove('is-active');button.setAttribute('aria-pressed','false');});
+      }
+
+      function stopSpeech() {
+        speechGeneration++;
+        if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+        if (activeSpeechButton) {
+          activeSpeechButton.classList.remove('is-active');
+          activeSpeechButton.setAttribute('aria-pressed', 'false');
+          activeSpeechButton = null;
+        }
+      }
+
+      function speak(button) {
+        if (!('speechSynthesis' in window) || typeof window.SpeechSynthesisUtterance !== 'function') {
+          setVoiceStatus('Seu navegador não oferece leitura de voz.');
+          return;
+        }
+
+        if (activeSpeechButton === button && window.speechSynthesis.speaking) {
+          stopSpeech();
+          setVoiceStatus('Leitura interrompida.');
+          return;
+        }
+
+        stopSpeech();
+        if (activeRecognition) stopListening();
+        const speechToken=speechGeneration;
+        const utterance = new SpeechSynthesisUtterance(button.dataset.speak || '');
+        utterance.lang = 'pt-BR';
+        utterance.rate = 0.9;
+        utterance.onstart = () => {
+          if(speechToken!==speechGeneration)return;
+          activeSpeechButton = button;
+          button.classList.add('is-active');
+          button.setAttribute('aria-pressed', 'true');
+          setVoiceStatus('Lendo a pergunta.');
+        };
+        utterance.onend = () => {
+          if(speechToken!==speechGeneration)return;
+          if (activeSpeechButton === button) stopSpeech();
+          setVoiceStatus('');
+        };
+        utterance.onerror = () => {
+          if(speechToken!==speechGeneration)return;
+          stopSpeech();
+          setVoiceStatus('Não foi possível reproduzir a pergunta.');
+        };
+        window.speechSynthesis.speak(utterance);
+      }
+
+      function dictate(target, button) {
+        const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        if (!Recognition) {
+          setVoiceStatus('Seu navegador não oferece ditado por voz.');
+          return;
+        }
+
+        if (activeRecognition) {
+          stopListening();
+          setVoiceStatus('Ditado interrompido. Confira o texto digitado.');
+          return;
+        }
+
+        stopSpeech();
+        const recognition = new Recognition();
+        const initialText = target.value.trim();
+        recognition.lang = 'pt-BR';
+        recognition.interimResults = false;
+        recognition.continuous = false;
+        activeRecognition = recognition;
+        button.classList.add('is-active');
+        button.setAttribute('aria-pressed', 'true');
+        setVoiceStatus('Ouvindo. Fale sua resposta.');
+
+        recognition.onresult = (event) => {
+          if(activeRecognition!==recognition)return;
+          const transcript = [...event.results]
+            .map((result) => result[0].transcript)
+            .join(' ')
+            .trim();
+          if (transcript) {
+            target.value = [initialText, transcript].filter(Boolean).join(initialText ? ' ' : '').slice(0, target.maxLength > 0 ? target.maxLength : 600);
+            target.dispatchEvent(new Event('input', { bubbles: true }));
+          }
+        };
+        recognition.onerror = event => {if(activeRecognition!==recognition)return;setVoiceStatus(event.error === 'not-allowed' ? 'O microfone não foi autorizado. Você pode escrever a resposta.' : 'Não foi possível entender o áudio. Tente novamente ou escreva.');};
+        recognition.onend = () => {
+          if(activeRecognition!==recognition)return;
+          activeRecognition = null;
+          button.classList.remove('is-active');
+          button.setAttribute('aria-pressed', 'false');
+          if (voiceStatus.textContent === 'Ouvindo. Fale sua resposta.') setVoiceStatus('');
+        };
+        try { recognition.start(); } catch (_) { activeRecognition = null; button.classList.remove('is-active'); button.setAttribute('aria-pressed','false'); setVoiceStatus('Não foi possível iniciar o microfone. Você pode escrever a resposta.'); }
+      }
+
+      document.querySelectorAll('.question-title').forEach((title) => {
+        const group = title.closest('.question-group');
+        const titleText = title.textContent.trim();
+        const spokenChoices = [...(group?.querySelectorAll('.option-card, .rating-option') || [])].map((choice, index) => {
+          const choiceText = choice.querySelector('.option-title, .rating-word')?.textContent.trim() || '';
+          const spokenText = `Resposta ${index + 1}: ${choiceText}`;
+          const input = choice.querySelector('input');
+          if (input && choice.classList.contains('rating-option')) input.setAttribute('aria-label', `${choice.querySelector('.rating-number')?.textContent.trim()}: ${choiceText}`);
+
+          if (choice.classList.contains('option-card') && !choice.querySelector('.option-number')) {
+            const number = document.createElement('span');
+            number.className = 'option-number';
+            number.textContent = String(index + 1);
+            number.setAttribute('aria-hidden', 'true');
+            choice.querySelector('.option-content')?.prepend(number);
+          }
+
+          return spokenText;
+        });
+        const speechText = [titleText, ...spokenChoices].join('. ');
+        const row = document.createElement('div');
+        row.className = 'question-title-row';
+        title.parentNode.insertBefore(row, title);
+        row.append(title, createSpeakButton(titleText, speechText));
+      });
+
+      document.querySelectorAll('.text-field > label').forEach((labelText) => {
+        const field = labelText.closest('.text-field');
+        const labelValue = labelText.textContent.trim();
+        const select = field?.querySelector('select');
+        const selectChoices = select
+          ? [...select.options].filter((option) => option.value).map((option, index) => `Resposta ${index + 1}: ${option.textContent.trim()}`)
+          : [];
+        const row = document.createElement('div');
+        row.className = 'text-label-row';
+        labelText.parentNode.insertBefore(row, labelText);
+        row.append(labelText, createSpeakButton(labelValue, [labelValue, ...selectChoices].join('. ')));
+        if (labelText.htmlFor === 'suggestion') {
+          row.append(createDictationButton(document.getElementById('suggestion')));
+        }
+      });
+
+      document.querySelectorAll('[data-speak]').forEach((button) => {
+        button.addEventListener('click', (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+          speak(button);
+        });
+      });
+
+      document.querySelectorAll('[data-next]').forEach((button) => {
+        button.addEventListener('click', () => {
+          if (submitButton.disabled || button.closest('.form-step')!==steps[currentStep]) return;
+          if (validateStep(currentStep)) showStep(currentStep + 1, true);
+        });
+      });
+
+      document.querySelectorAll('[data-prev]').forEach((button) => {
+        button.addEventListener('click', () => { if (!submitButton.disabled && button.closest('.form-step')===steps[currentStep]) showStep(currentStep - 1, true); });
+      });
+
+      newResponseButton.addEventListener('click', resetForNewResponse);
+
+      suggestion.addEventListener('input', () => {
+        suggestionCounter.textContent = String(suggestion.value.length);
+      });
+
+      const readingPreferences = [['surveyFont','survey-large','large-text'],['surveyContrast','survey-contrast','high-contrast']];
+      readingPreferences.forEach(([id,className,key]) => {
+        const button=document.getElementById(id);
+        const apply=enabled=>{document.documentElement.classList.toggle(className,enabled);button.setAttribute('aria-pressed',String(enabled));};
+        try { apply(sessionStorage.getItem(key)==='true'); } catch (_) {}
+        button.addEventListener('click',()=>{const enabled=!document.documentElement.classList.contains(className);apply(enabled);try{sessionStorage.setItem(key,String(enabled));}catch(_){}});
+      });
+      window.addEventListener('pagehide',()=>{stopSpeech();stopListening();});
+      showStep(0, false);
+    })();
+  </script>
+</body>
+</html>

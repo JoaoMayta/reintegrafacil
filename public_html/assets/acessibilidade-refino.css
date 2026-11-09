@@ -1,0 +1,28 @@
+/* Controles de leitura: texto continua disponível sem áudio. */
+::highlight(rf-reading-word){background:#f2cf67;color:#1c3427;text-decoration:underline;text-decoration-color:#7d5319}
+.rf-reading-line{background:#fff0bd;border-radius:5px;box-shadow:0 0 0 4px #fff0bd}
+.rf-reader{max-height:calc(100dvh - 28px);overflow:auto;overscroll-behavior:contain}
+.rf-reader .rf-progress{font-size:.86rem;line-height:1.45;color:#4b5d44;margin:10px 0}
+.rf-reader .rf-caption{max-height:min(180px,26dvh);scrollbar-width:thin;overflow:auto;padding:3px;scroll-margin:12px}
+.rf-reader .rf-voice-controls{display:flex;gap:12px;align-items:flex-end;justify-content:space-between;padding-top:8px;border-top:1px solid #d4dec9;margin-top:12px}
+.rf-reader .rf-voice-controls label{display:flex;flex-direction:column;gap:4px;font-size:.78rem;font-weight:700;min-width:0}
+.rf-reader .rf-voice-controls select{font:inherit;font-size:.9rem;min-height:44px;width:auto;max-width:170px;background:#fffefa;padding:7px 26px 7px 10px;border:1px solid #a9b9a5;border-radius:8px}
+.rf-reader .rf-actions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:14px}
+.rf-reader .rf-actions button{padding:8px;font-size:.85rem;line-height:1.35;min-height:48px}
+.rf-reader .rf-actions button:disabled{opacity:.5;cursor:default}
+.rf-reader .rf-pause{font-size:.88rem;min-height:44px;line-height:1.3}
+.rf-reader .rf-caption:focus-visible{outline:2px solid #315e49;outline-offset:3px}
+.rf-reader .rf-back[hidden],.rf-reader .rf-next[hidden]{display:none!important}
+.rf-reader:has(.rf-back[hidden]) .rf-actions{grid-template-columns:1fr}
+body:has(.rf-reader:not([hidden])){padding-bottom:var(--rf-reader-clearance,0px)}
+body.high-contrast .rf-reading-line{background:#ffeb75;color:#000;box-shadow:0 0 0 4px #ffeb75}
+body.high-contrast .rf-reader .rf-progress{color:#000}
+body.high-contrast .rf-reader button,body.high-contrast .rf-reader select{border:2px solid #000;background:#fff;color:#000}
+body.high-contrast .rf-reader button:disabled{opacity:1;color:#555;border-style:dashed}
+html.large-text .rf-reader{width:min(470px,calc(100% - 32px))}
+@media(max-width:700px){.rf-reader{right:12px;bottom:12px;width:calc(100% - 24px);padding:15px;max-height:calc(100dvh - 24px)}.rf-reader .rf-caption{max-height:clamp(70px,16dvh,125px);font-size:1rem}.rf-reader h2{font-size:.95rem;line-height:1.4}.rf-reader .rf-close{flex:0 0 44px}.rf-reader .rf-voice-controls{gap:8px}.rf-reader .rf-actions{gap:6px}.rf-reader .rf-actions button{font-size:.8rem;padding:8px 5px}.rf-reader .rf-progress{font-size:.8rem;margin:6px 0}}
+@media(max-height:550px){.rf-reader{max-width:360px;max-height:calc(100dvh - 16px);bottom:8px}.rf-reader .rf-caption{max-height:70px}.rf-reader .rf-voice-controls{margin-top:6px;padding-top:6px}.rf-reader .rf-actions{margin-top:8px}}
+@media(prefers-reduced-motion:reduce){.rf-pointer,.guide-target,.speaking-region{animation:none!important;transition:none!important}.rf-reader *{scroll-behavior:auto!important}}
+@media print{body:has(.rf-reader:not([hidden])){padding-bottom:0!important}.rf-reading-line{background:transparent;box-shadow:none}.rf-reader,.rf-pointer{display:none!important}}
+
+.rf-active-guide .voice-status{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%);padding:0!important;border:0!important;white-space:nowrap}

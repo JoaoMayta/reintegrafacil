@@ -1,0 +1,1160 @@
+{
+  "voice": "pt_BR-faber-medium",
+  "language": "pt-BR",
+  "engine": "Piper",
+  "engine_version": "1.8.0",
+  "license": {
+    "model_distribution": "MIT (declared by piper-voices repository metadata)",
+    "dataset": "CC0",
+    "model_card": "https://huggingface.co/rhasspy/piper-voices/blob/main/pt/pt_BR/faber/medium/MODEL_CARD",
+    "dataset_source": "https://github.com/OHF-Voice/voice-datasets",
+    "engine": "GPL-3.0; engine remains private/offline, not shipped to browser"
+  },
+  "source": "https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx",
+  "settings": {
+    "length_scale": 1.25,
+    "noise_scale": 0.5,
+    "noise_w_scale": 0.7,
+    "normalize_audio": true,
+    "volume": 0.85
+  },
+  "model_sha256": "858555e3a064209c57088fe6bd70c4c3dc54d03eaa00c45d5ecaf43a33f95aa7",
+  "generated_at_utc": "2026-11-08T18:09:53.819129+00:00",
+  "items": [
+    {
+      "text": "Olá. Eu vou ajudar você a encontrar um serviço.",
+      "url": "/assets/vozes/ptbr-cb138f713c9b0950c3aca254.mp3",
+      "duration": 3.161,
+      "bytes": 19192,
+      "sha256": "bad25cae6b0573dfaa12c1f386d522b30e6a91aad308d405e487b837a0b8aa84"
+    },
+    {
+      "text": "O que você precisa? Pode escrever aqui.",
+      "url": "/assets/vozes/ptbr-953668975486dee6f3272a00.mp3",
+      "duration": 2.664,
+      "bytes": 16214,
+      "sha256": "1546814ead9a7fca1e92ab5427f18911b019980af3bfb57777f94a6b740b4caa"
+    },
+    {
+      "text": "Se preferir falar, toque neste botão. Depois, permita o microfone no seu celular.",
+      "url": "/assets/vozes/ptbr-5f2df67bd7dbc6e725bd9a37.mp3",
+      "duration": 5.068,
+      "bytes": 30633,
+      "sha256": "220186d8fabaf40d68579fe09c7f1d0b966a5614a249e70a9e70f82be363e50d"
+    },
+    {
+      "text": "Confira o que apareceu. Quando estiver certo, toque em Buscar.",
+      "url": "/assets/vozes/ptbr-bab4fcc863dd3f3b28499c7d.mp3",
+      "duration": 3.788,
+      "bytes": 22953,
+      "sha256": "4661f17a7888ff5e67ca56d7420185a0b1cd3e18d48d922bf84e6c128401f6d7"
+    },
+    {
+      "text": "Ou escolha um destes caminhos. Toque no assunto que você precisa.",
+      "url": "/assets/vozes/ptbr-8c2f66d139f858cee38fb19c.mp3",
+      "duration": 3.814,
+      "bytes": 23110,
+      "sha256": "257f4aebde4ec6fec66bf401fcab4a0500fdf1bc39a547a141d10851187bb382"
+    },
+    {
+      "text": "Aqui estão os serviços. Toque em Ver orientação para continuar.",
+      "url": "/assets/vozes/ptbr-cdc2ccc2db612ca7782435de.mp3",
+      "duration": 3.944,
+      "bytes": 23894,
+      "sha256": "e16fb29f3fa4a741597b14d65b598f8d43a905e117ec7cb0d1ab7e197bca625f"
+    },
+    {
+      "text": "Este é o serviço que você escolheu. Vou ler os próximos passos.",
+      "url": "/assets/vozes/ptbr-67f463f1215f47af8a84914d.mp3",
+      "duration": 3.997,
+      "bytes": 24207,
+      "sha256": "f150329bcad26bc2e3ae18127dfb42b9b74e9de55e195e15532bd7d35abc8c18"
+    },
+    {
+      "text": "Para continuar, toque em Acessar fonte oficial. O atendimento é feito pela instituição.",
+      "url": "/assets/vozes/ptbr-582b00cfedf796b409fede98.mp3",
+      "duration": 5.277,
+      "bytes": 31887,
+      "sha256": "4e66fdee06266981fbb2d17b365ae70d4194603ae90f5044c288a2c5f8ea3ec5"
+    },
+    {
+      "text": "Esses são os caminhos que você guardou. Toque em Ver orientação para abrir um serviço.",
+      "url": "/assets/vozes/ptbr-7290b9fbef0d5f4b502dba6a.mp3",
+      "duration": 4.702,
+      "bytes": 28439,
+      "sha256": "254d6040209acf0909253ca00e90cda86fde79d41f2f89a8de62ae5cc0c20200"
+    },
+    {
+      "text": "Como podemos chamar você? O nome é opcional. Você pode continuar sem preencher.",
+      "url": "/assets/vozes/ptbr-789917b51fbbdc8fca707872.mp3",
+      "duration": 4.78,
+      "bytes": 28909,
+      "sha256": "6bbe2a1c06a3c85c1222e0b6d6b9e9363bbbc9f6b67f910c442537bf86d8fa60"
+    },
+    {
+      "text": "Onde você está? Informe o estado e a cidade, ou continue sem preencher.",
+      "url": "/assets/vozes/ptbr-2f8d229f480e61346cf2608b.mp3",
+      "duration": 4.728,
+      "bytes": 28596,
+      "sha256": "0787da840f833dd2de1009fd9c8571955155b4f4c343c2bf0338377357f2057d"
+    },
+    {
+      "text": "O que você precisa agora? Escolha um caminho ou decida depois.",
+      "url": "/assets/vozes/ptbr-54162c22501adbef3fdc553a.mp3",
+      "duration": 3.997,
+      "bytes": 24207,
+      "sha256": "26335e71880e34816992ffd00b696f26c9abde8f1420932347e7cfe1d814fff0"
+    },
+    {
+      "text": "Confira o texto. Toque em Buscar para ver os serviços.",
+      "url": "/assets/vozes/ptbr-744dd4f902c54e948e04d759.mp3",
+      "duration": 3.318,
+      "bytes": 20132,
+      "sha256": "7c6f894812d97ae4dd9ecbac0fd4b22541d5149b4b96f5b1fa30bd80b7f096fb"
+    },
+    {
+      "text": "Toque em Continuar para seguir. Suas escolhas são opcionais.",
+      "url": "/assets/vozes/ptbr-86324e3e0dacdb6063ddd7f0.mp3",
+      "duration": 3.5,
+      "bytes": 21229,
+      "sha256": "96cf6f65dddc9fe1a9866c8e2f3a33be6b6b3247e6fb5ae2937b759cb33b3ef5"
+    },
+    {
+      "text": "Você pode usar o sistema lendo, ouvindo ou falando. Vamos começar pela busca.",
+      "url": "/assets/vozes/ptbr-b0df8a7aca6c76e88a957f42.mp3",
+      "duration": 4.989,
+      "bytes": 30163,
+      "sha256": "b36cd686aac13adb5719308b090c6d73ada60377caf1b71f21e621b183ca89a1"
+    },
+    {
+      "text": "Quando escolher, toque em Abrir meu painel.",
+      "url": "/assets/vozes/ptbr-0e80dd77b80e11865847c5d7.mp3",
+      "duration": 2.508,
+      "bytes": 15273,
+      "sha256": "a12015f49af0c9a351a0be67a4d9fc5d3be6013e47f39e5bf114bbacf309cade"
+    },
+    {
+      "text": "Escolha o estado da cidade informada.",
+      "url": "/assets/vozes/ptbr-7358d28db314f9581057edd4.mp3",
+      "duration": 2.403,
+      "bytes": 14646,
+      "sha256": "857d4a9fea17c46234cef033cf0f5b05a29870031e7f729685a7adb304aae52d"
+    },
+    {
+      "text": "Confira o texto. Toque em Continuar para seguir.",
+      "url": "/assets/vozes/ptbr-30140d1482e5bb8f094a4da2.mp3",
+      "duration": 2.717,
+      "bytes": 16527,
+      "sha256": "a4a707d0c6808b883e65a168f71f32f83611aa9535bbc9a2f9b6e53428366a30"
+    },
+    {
+      "text": "Estou procurando os caminhos para você.",
+      "url": "/assets/vozes/ptbr-5ed171d7f9623ba1a872be6f.mp3",
+      "duration": 2.194,
+      "bytes": 13392,
+      "sha256": "eaf0ede26047ea8bd6fa6b6a8fb4251f1a51ac935b3c765f5e5cd7932ee95547"
+    },
+    {
+      "text": "Não encontrei serviços no catálogo com essas escolhas.",
+      "url": "/assets/vozes/ptbr-878defd28f465292dce27149.mp3",
+      "duration": 3.448,
+      "bytes": 20916,
+      "sha256": "466691bdbdcd6d2dcbb040eb2b040eb88d7d06bf8eed9ae65edbbeb666c06125"
+    },
+    {
+      "text": "Encontrei um serviço no catálogo.",
+      "url": "/assets/vozes/ptbr-1e28905ff6f7f458da1776bf.mp3",
+      "duration": 2.299,
+      "bytes": 14019,
+      "sha256": "b7cf6eae7298a4f79a9173c000d1e0993ff31a5097d565a1d56a91ef27830821"
+    },
+    {
+      "text": "Você pode mudar o pedido, retirar um filtro ou ver todos os serviços. Isso não significa que não exista atendimento na sua região.",
+      "url": "/assets/vozes/ptbr-c262fb015bfe269285c2d034.mp3",
+      "duration": 7.549,
+      "bytes": 45523,
+      "sha256": "6ce9874282bfb9ac13cb43eb228f18107a7e724d3086a4383ba8b1bffa6bbdc0"
+    },
+    {
+      "text": "Para conhecer os caminhos disponíveis, toque em Ver todos os serviços.",
+      "url": "/assets/vozes/ptbr-dd41fbb4a117173c16892664.mp3",
+      "duration": 4.232,
+      "bytes": 25618,
+      "sha256": "a189e9638a7b0a7cc37263f87b9440a036f804168c07ba5526bf07aadd409510"
+    },
+    {
+      "text": "Toque em Ver orientação no serviço que você quer conhecer.",
+      "url": "/assets/vozes/ptbr-f8435f483742c1a3adfb0ff7.mp3",
+      "duration": 3.161,
+      "bytes": 19192,
+      "sha256": "734b70617f12a8af4aac844b84eb7cc9ec1b5405c7464d2b6c5df2f6d096257b"
+    },
+    {
+      "text": "Você procura trabalho. Estes caminhos ajudam a começar.",
+      "url": "/assets/vozes/ptbr-471f81c86a72d0aad4a8fe46.mp3",
+      "duration": 3.448,
+      "bytes": 20916,
+      "sha256": "2018798472bc477bbc5273eda030525bc2a6777b116ddd3ed5f8419c2cb2455b"
+    },
+    {
+      "text": "Você precisa de documentos. Veja os caminhos disponíveis.",
+      "url": "/assets/vozes/ptbr-69b05fd243c48abfa89b6b6f.mp3",
+      "duration": 3.788,
+      "bytes": 22953,
+      "sha256": "9889882db00b822fa7973659c0daf436e70916065b494bb1da2c40c2ff0a4156"
+    },
+    {
+      "text": "Você quer voltar a estudar. Veja por onde começar.",
+      "url": "/assets/vozes/ptbr-18b5fb3da3be8959699a3b46.mp3",
+      "duration": 3.004,
+      "bytes": 18251,
+      "sha256": "f0c8e79bace74b7fe209452bee36aaeba27e82949e7caf3fe991d0f643b11ccb"
+    },
+    {
+      "text": "Você procura um curso. Veja as opções do catálogo.",
+      "url": "/assets/vozes/ptbr-b6e907bbfe6744ce3acaf549.mp3",
+      "duration": 3.422,
+      "bytes": 20759,
+      "sha256": "0e1a8b35670d9712271f7178f3768e05a8030e5f723f87f161a95bcb8314012f"
+    },
+    {
+      "text": "Você procura apoio. Veja os serviços que podem orientar você.",
+      "url": "/assets/vozes/ptbr-1cc1e12537afbdf210ba0cf2.mp3",
+      "duration": 3.971,
+      "bytes": 24050,
+      "sha256": "4637f63b43b5730f359912b5883a6d38fdf1edf51e0d1acf839f154e562e30dc"
+    },
+    {
+      "text": "Encontrei 2 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-df41a927b807522797997ea9.mp3",
+      "duration": 2.351,
+      "bytes": 14333,
+      "sha256": "b4637a3b5537455910e6a6941afe0a9d6e1ff6319554cb0a00e1e86959b5e7c2"
+    },
+    {
+      "text": "Encontrei 3 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-033a58d4055213613125933e.mp3",
+      "duration": 2.377,
+      "bytes": 14490,
+      "sha256": "7084967eaa70a39f1c008856476548722f863d185a0f842005953298273d5f55"
+    },
+    {
+      "text": "Encontrei 4 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-b95901880599c91bed5e6f8f.mp3",
+      "duration": 2.508,
+      "bytes": 15273,
+      "sha256": "a84d4722ebb9a1f216171ef36963e5fab3aa411a83388106cc1f8e58d053b195"
+    },
+    {
+      "text": "Encontrei 5 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-2510054df03b7584ea0314bf.mp3",
+      "duration": 2.586,
+      "bytes": 15743,
+      "sha256": "36a445d6e7b00e01541c243a5e10478aa4e4b6c6df30ec348ce9c12736833fff"
+    },
+    {
+      "text": "Encontrei 6 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-9f6ad193589721bc5f17b7bb.mp3",
+      "duration": 2.403,
+      "bytes": 14646,
+      "sha256": "c6002b6eee18081af1ab92ba52b4bdac104ff8a0c4f046f0eb3d0829be64f34a"
+    },
+    {
+      "text": "Encontrei 7 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-7c81734fc87c4bbd2705da84.mp3",
+      "duration": 2.456,
+      "bytes": 14960,
+      "sha256": "9e9680074d6e58da5eeb9c978beb6a27788f0e2a2477722cf1cd075e33b6b1cc"
+    },
+    {
+      "text": "Encontrei 8 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-59d54f43f0a965f0b8e99b5c.mp3",
+      "duration": 2.56,
+      "bytes": 15587,
+      "sha256": "26a321fe6d56f7d8ced9452c91832c8ef2ac3cfbcee6be6dcd469b2094bd772f"
+    },
+    {
+      "text": "Encontrei 9 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-b4059c9f43eb4debe8c4f482.mp3",
+      "duration": 2.429,
+      "bytes": 14803,
+      "sha256": "7bb5989be8879b29a47ed52973c82f6f87e879c1f10cbee6f7355dc1db6e331b"
+    },
+    {
+      "text": "Encontrei 10 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-ae54fda0a8590f113095a363.mp3",
+      "duration": 2.351,
+      "bytes": 14333,
+      "sha256": "2fc727b174d9557068b24598967270ddb4611b02906b94589f6414ec4863c72e"
+    },
+    {
+      "text": "Agora, fale qual serviço você precisa. Diga o nome, o número ou peça outro serviço.",
+      "url": "/assets/vozes/ptbr-bcd52d15ea24632293caac0a.mp3",
+      "duration": 5.46,
+      "bytes": 32984,
+      "sha256": "cdd83b3f18ad354f0e52506316724b60289378d2831abf51b52f2bcd8f8270e0"
+    },
+    {
+      "text": "Agora, fale o que você precisa para fazer uma nova busca.",
+      "url": "/assets/vozes/ptbr-d5a5aaa45c78b4c14f2b4995.mp3",
+      "duration": 3.448,
+      "bytes": 20916,
+      "sha256": "90934e4e223fe1ae24cf02b520b16baea2fcd7d94967fc1e28a1a71f78828a91"
+    },
+    {
+      "text": "Encontrei mais de uma opção. Diga o nome ou o número do serviço que você quer.",
+      "url": "/assets/vozes/ptbr-5a4fc20f1303c0ab286ee226.mp3",
+      "duration": 4.441,
+      "bytes": 26872,
+      "sha256": "a41737463008133be8c5f2ebebd67b1c66b77b3ff640bfaa8e62eac9be74ea3d"
+    },
+    {
+      "text": "Encontrei 11 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-55ccc4b877befbbfafad8f53.mp3",
+      "duration": 2.586,
+      "bytes": 15743,
+      "sha256": "582672fd252d5d02e0ffba898f35fe20d5760924883f84abaa157f2404fd5ff6"
+    },
+    {
+      "text": "Encontrei 12 serviços no catálogo.",
+      "url": "/assets/vozes/ptbr-da9bbaa77569a0341164519b.mp3",
+      "duration": 2.56,
+      "bytes": 15587,
+      "sha256": "36b095538a14b976d33b66874a6ad11e535f26db0f9b546915ac4fe119d35047"
+    },
+    {
+      "text": "Bem-vindo ao ReintegraFacil. Encontre orientações para documentos, estudos, cursos, trabalho e apoio. O acesso é gratuito e sem cadastro obrigatório. Toque em Abrir serviços para continuar. Dentro do sistema, a orientação aparece diretamente na tela.",
+      "url": "/assets/vozes/ptbr-29932b6aa6993d3a593fd0ca.mp3",
+      "duration": 16.118,
+      "bytes": 96932,
+      "sha256": "0e27ad07d1cc833520fc7352618da7ec09010ac5b7438bc140f4bd0aab478356"
+    },
+    {
+      "text": "Organizar meus documentos. Consulte CPF, Carteira de Identidade e Carteira de Trabalho. Toque no título para ver os serviços.",
+      "url": "/assets/vozes/ptbr-287f724cc6df8eda3c59cc7b.mp3",
+      "duration": 7.576,
+      "bytes": 45680,
+      "sha256": "8a3e000a3dd96747923d509e7313abd75185681d1da74c5ee35c474865b3699d"
+    },
+    {
+      "text": "Voltar a estudar. Conheça a Educação de Jovens e Adultos e o Encceja. Toque no título para continuar.",
+      "url": "/assets/vozes/ptbr-796a386450305c2b95f1532d.mp3",
+      "duration": 6.609,
+      "bytes": 39881,
+      "sha256": "226fac086a40228798db01c44f848d4ea8afa4c3516d85b3f25f952c3a0b186b"
+    },
+    {
+      "text": "Aprender algo novo. Encontre caminhos para cursos gratuitos e qualificação. Toque no título para continuar.",
+      "url": "/assets/vozes/ptbr-b6078b41496c6df2ff5f360e.mp3",
+      "duration": 6.74,
+      "bytes": 40664,
+      "sha256": "3f9f3ce04e0269b7b0cf084ce063376e881942b6c8d8fe4715140664ad14d4e7"
+    },
+    {
+      "text": "Procurar trabalho. Consulte os canais do Sine e do Cate. Toque no título e confira a abrangência de cada serviço.",
+      "url": "/assets/vozes/ptbr-394531cc5191d13a5d82ed99.mp3",
+      "duration": 6.87,
+      "bytes": 41448,
+      "sha256": "9162fcb0343c0cc2ebd121c351151da711cd15244c5f8047cc24547e0ce41e5e"
+    },
+    {
+      "text": "Encontrar apoio. Veja orientações sobre assistência social, CRAS e Cadastro Único. Toque no título para continuar.",
+      "url": "/assets/vozes/ptbr-9660f307a6e93ec8fbed3da7.mp3",
+      "duration": 7.576,
+      "bytes": 45680,
+      "sha256": "d29f38868998f0b9b13704e2e8f3ae108f482824efcb10c86ac2539e119fd383"
+    },
+    {
+      "text": "Como podemos chamar você? Pode escrever ou falar seu primeiro nome ou apelido. Se preferir, marque Prefiro não me identificar. Não é preciso informar um nome para continuar.",
+      "url": "/assets/vozes/ptbr-b9238b742048478677da82e2.mp3",
+      "duration": 9.691,
+      "bytes": 58375,
+      "sha256": "ae0f28ea1e9566d4837e0e0fa9a8ba620a3d9aca0b2fd20ab67d878273242f51"
+    },
+    {
+      "text": "Qual é o seu estado? Escolha na lista. Se preferir, deixe em branco.",
+      "url": "/assets/vozes/ptbr-41e690a5c6077a392dadf826.mp3",
+      "duration": 4.206,
+      "bytes": 25461,
+      "sha256": "18f2ef84852dc86bc8b549c853b8371803fb5177114d6e5af8b900e84caf38bd"
+    },
+    {
+      "text": "Qual é a sua cidade? Escreva só o nome da cidade, ou toque em Falar para usar o microfone.",
+      "url": "/assets/vozes/ptbr-f10fdf95d159da6a87a5efc7.mp3",
+      "duration": 5.407,
+      "bytes": 32671,
+      "sha256": "8f0760daf350775368dce564cad7b1b56c94a35f719c48793d92029eee66b6c8"
+    },
+    {
+      "text": "O que você precisa agora? Resposta 1: organizar meus documentos. Resposta 2: voltar a estudar. Resposta 3: aprender uma profissão. Resposta 4: procurar trabalho. Resposta 5: encontrar apoio. Resposta 6: decidir depois.",
+      "url": "/assets/vozes/ptbr-647f904a7f492a3ded6ef0c0.mp3",
+      "duration": 16.039,
+      "bytes": 96462,
+      "sha256": "9b35036ab7b6a515ce45437c896f9fce084846a4e86b0d9b979d8f0574e3ed76"
+    },
+    {
+      "text": "O que você procura? Digite uma palavra ou toque em Falar. A busca filtra os caminhos deste painel.",
+      "url": "/assets/vozes/ptbr-28694754b03c58c9867ee243.mp3",
+      "duration": 5.956,
+      "bytes": 35962,
+      "sha256": "a100bc9f1cd868ab27d5ab2aeb7dd64c5eafd3b5ae64b0ef7d4663d480a2f0c1"
+    },
+    {
+      "text": "Escolha um caminho: documentos, estudos, cursos, trabalho ou apoio. Consulte orientações e fontes oficiais.",
+      "url": "/assets/vozes/ptbr-981ca03ddf4c259b59d4095e.mp3",
+      "duration": 8.202,
+      "bytes": 49441,
+      "sha256": "020c40f2706afa024767d48648b86e27bc4b963b616b7af59191d8c16d695560"
+    },
+    {
+      "text": "Inscrição no Cadastro de Pessoas Físicas (CPF)",
+      "url": "/assets/vozes/ptbr-e6cb134907594dfac5bc8827.mp3",
+      "duration": 3.239,
+      "bytes": 19662,
+      "sha256": "2000729590ed07ca23e1e38340255265a056b570d0fda550a163b4a29449f0bc"
+    },
+    {
+      "text": "Inscrição no Cadastro de Pessoas Físicas (CPF). Orientações e canais oficiais para solicitar inscrição no CPF.",
+      "url": "/assets/vozes/ptbr-3bc1cc1600f2129e9bcd46b0.mp3",
+      "duration": 7.784,
+      "bytes": 46934,
+      "sha256": "005aa0d814ec2659addc774e47fcd21a0441b5d71a50a21d3474cd69aac7a3a9"
+    },
+    {
+      "text": "Inscrição no Cadastro de Pessoas Físicas (CPF). Orientações e canais oficiais para solicitar inscrição no CPF..",
+      "url": "/assets/vozes/ptbr-3ba2995bfcde37c6d3d1856f.mp3",
+      "duration": 7.837,
+      "bytes": 47247,
+      "sha256": "ea7af22df956cde2e3ddef90ee67108082c75eba41cbc764d06ac42162a5e651"
+    },
+    {
+      "text": "Inscrição no Cadastro de Pessoas Físicas (CPF). Orientações e canais oficiais para solicitar inscrição no CPF.. Abrangência: Brasil",
+      "url": "/assets/vozes/ptbr-1264577d692e46cca780400e.mp3",
+      "duration": 9.456,
+      "bytes": 56965,
+      "sha256": "5e36511ce2a75df531b7e3f3b860170a8c51ff9c8d2eb93dbac3ee6302c22b9b"
+    },
+    {
+      "text": "Inscrição no Cadastro de Pessoas Físicas (CPF). Orientações e canais oficiais para solicitar inscrição no CPF.. Abra a página da Receita Federal e escolha o canal de inscrição no CPF adequado à sua situação, como residente no Brasil ou no exterior. Confira na página os documentos exigidos para sua idade e situação. As regras podem ser diferentes para menores e representantes. Preencha o formulário indicado pela Receita com os dados dos seus documentos. Se precisar, consulte os canais presenciais ou por e-mail listados na mesma fonte. Confira o resultado e siga as orientações do canal escolhido. O atendimento em unidades conveniadas pode ter taxa; consulte as condições antes de ir.",
+      "url": "/assets/vozes/ptbr-51791f47b84d0916d6ee8917.mp3",
+      "duration": 42.867,
+      "bytes": 257428,
+      "sha256": "111226cf03a2a58563147423bdc77a380849e9a065a760d5d206cd1bd571656e"
+    },
+    {
+      "text": "Abra a página da Receita Federal e escolha o canal de inscrição no CPF adequado à sua situação, como residente no Brasil ou no exterior.",
+      "url": "/assets/vozes/ptbr-4c0bf3301f963d7982db973c.mp3",
+      "duration": 8.699,
+      "bytes": 52419,
+      "sha256": "9139fcec33a7d09c7e09d96afd816589858f164fdc1adee026909508925fa988"
+    },
+    {
+      "text": "Confira na página os documentos exigidos para sua idade e situação. As regras podem ser diferentes para menores e representantes.",
+      "url": "/assets/vozes/ptbr-c665a811e168ef657d6b08c9.mp3",
+      "duration": 7.889,
+      "bytes": 47561,
+      "sha256": "7cf1ba657659f1bf851b579508341e94c4892d533203cb60394a435fb766dfab"
+    },
+    {
+      "text": "Preencha o formulário indicado pela Receita com os dados dos seus documentos. Se precisar, consulte os canais presenciais ou por e-mail listados na mesma fonte.",
+      "url": "/assets/vozes/ptbr-401669bac3793136e66a50e2.mp3",
+      "duration": 9.639,
+      "bytes": 58062,
+      "sha256": "d108cfb82d20ae647bde48ee0456ef0f527a859feb1dd4cbbf15c7db10831570"
+    },
+    {
+      "text": "Confira o resultado e siga as orientações do canal escolhido. O atendimento em unidades conveniadas pode ter taxa; consulte as condições antes de ir.",
+      "url": "/assets/vozes/ptbr-20d2a58a9a6ae52e34c01774.mp3",
+      "duration": 8.934,
+      "bytes": 53830,
+      "sha256": "df401b22167e86eb47f01a008a9adb56ae1eee6c28a7df034092a5b9a52f74ae"
+    },
+    {
+      "text": "Emissão da Carteira de Identidade Nacional (CIN)",
+      "url": "/assets/vozes/ptbr-dfe3078621d901e5d7232394.mp3",
+      "duration": 2.952,
+      "bytes": 17938,
+      "sha256": "e3edfcacfdcf0647777c1657f4017c411dc15b850df960fecd1e0158bb2137a3"
+    },
+    {
+      "text": "Emissão da Carteira de Identidade Nacional (CIN). Informações oficiais sobre emissão e agendamento da CIN no estado.",
+      "url": "/assets/vozes/ptbr-93a3b045c321dfb0d905ce67.mp3",
+      "duration": 7.576,
+      "bytes": 45680,
+      "sha256": "6e865ebc3af321f34c11656247eac7ec2add3b2a2818ba0333f675e456f1b099"
+    },
+    {
+      "text": "Emissão da Carteira de Identidade Nacional (CIN). Informações oficiais sobre emissão e agendamento da CIN no estado..",
+      "url": "/assets/vozes/ptbr-8e3394a8fa0d7ccfe5d463b6.mp3",
+      "duration": 7.549,
+      "bytes": 45523,
+      "sha256": "30690f55ec26ff3295dbc841996c16dd958fbd90a320285e9515ced951d2cf99"
+    },
+    {
+      "text": "Emissão da Carteira de Identidade Nacional (CIN). Informações oficiais sobre emissão e agendamento da CIN no estado.. Abrangência: Estado de São Paulo",
+      "url": "/assets/vozes/ptbr-a623e8399b92f0a9ea84a1f2.mp3",
+      "duration": 9.953,
+      "bytes": 59943,
+      "sha256": "010c655ba2593eab0da84e9577842bafa60024b378fb891a9285ae1c776d5b12"
+    },
+    {
+      "text": "Emissão da Carteira de Identidade Nacional (CIN). Informações oficiais sobre emissão e agendamento da CIN no estado.. Abra a página de emissão da CIN da Secretaria da Segurança Pública de São Paulo. Confira no canal oficial os documentos exigidos e as condições aplicáveis ao seu caso. Siga as orientações de agendamento e atendimento da instituição. Confirme a unidade, a data e os documentos antes de se deslocar.",
+      "url": "/assets/vozes/ptbr-8fee30df7e4f3fd542746ab6.mp3",
+      "duration": 26.044,
+      "bytes": 156491,
+      "sha256": "39f53a5df46590023eb098b9b9bf65830c85af8352c39493ff36b98e2ee347a5"
+    },
+    {
+      "text": "Abra a página de emissão da CIN da Secretaria da Segurança Pública de São Paulo.",
+      "url": "/assets/vozes/ptbr-2c582f35c8eff6d1fd16e29d.mp3",
+      "duration": 4.963,
+      "bytes": 30006,
+      "sha256": "25d863cf2f0b95142301aeeba830b6d70d8cb2d95b649a60cea8bccf0544df1b"
+    },
+    {
+      "text": "Confira no canal oficial os documentos exigidos e as condições aplicáveis ao seu caso.",
+      "url": "/assets/vozes/ptbr-49efaeebc44452690ec4459a.mp3",
+      "duration": 5.956,
+      "bytes": 35962,
+      "sha256": "606cf95f6a0727f1ed92484006e51d4b1641117fd916328ef426cfbbf67967dd"
+    },
+    {
+      "text": "Siga as orientações de agendamento e atendimento da instituição. Confirme a unidade, a data e os documentos antes de se deslocar.",
+      "url": "/assets/vozes/ptbr-2f937be2d956638fa08632ed.mp3",
+      "duration": 7.915,
+      "bytes": 47717,
+      "sha256": "ba9072b2dcade270d6e8f5d5168f64990ea8f1ed81e7eedaf237b8ab638ba147"
+    },
+    {
+      "text": "Carteira de Trabalho Digital",
+      "url": "/assets/vozes/ptbr-0fa184059a649573a765cd91.mp3",
+      "duration": 1.672,
+      "bytes": 10258,
+      "sha256": "463f142d3cd13a9c260e90e033ff98214688106cb7f23f3ae2ec7c040878afdf"
+    },
+    {
+      "text": "Carteira de Trabalho Digital. Canal de acesso à Carteira de Trabalho Digital; o serviço externo exige autenticação gov.br.",
+      "url": "/assets/vozes/ptbr-664e13b24a981272701c1b63.mp3",
+      "duration": 7.419,
+      "bytes": 44739,
+      "sha256": "f7aaba5714eeb78a907d513ad3d0232ff054e5757b1850c1c579b8582143e46a"
+    },
+    {
+      "text": "Carteira de Trabalho Digital. Canal de acesso à Carteira de Trabalho Digital; o serviço externo exige autenticação gov.br..",
+      "url": "/assets/vozes/ptbr-4e39bf41f0838a89a67c4e46.mp3",
+      "duration": 7.576,
+      "bytes": 45680,
+      "sha256": "afcd4cb2aaec87e02df229450c62d433461ee02b609e72fbaa7ba007d714c359"
+    },
+    {
+      "text": "Carteira de Trabalho Digital. Canal de acesso à Carteira de Trabalho Digital; o serviço externo exige autenticação gov.br.. Abrangência: Brasil",
+      "url": "/assets/vozes/ptbr-1e6c2301f73dfa85c2ac4813.mp3",
+      "duration": 9.456,
+      "bytes": 56965,
+      "sha256": "e0749874ccfd2f41c41771761b9a05c2f6e12b55f326224f3d528a7bdf7496ea"
+    },
+    {
+      "text": "Carteira de Trabalho Digital. Canal de acesso à Carteira de Trabalho Digital; o serviço externo exige autenticação gov.br.. Tenha seu número de CPF e sua conta gov.br. O portal do Ministério do Trabalho explica como acessar a Carteira de Trabalho Digital. Na página oficial, escolha o acesso pelo site ou o aplicativo indicado para seu celular. Entre com sua própria conta gov.br no canal oficial e confira suas informações. Não compartilhe sua senha. Se precisar de ajuda, use o canal de atendimento do Ministério do Trabalho informado na fonte oficial.",
+      "url": "/assets/vozes/ptbr-47deea2ef2ecaeca9625013d.mp3",
+      "duration": 34.795,
+      "bytes": 208997,
+      "sha256": "6344dd2fbc4fc757391220c78513a7c43e7b639944c62478931da998c045d6f8"
+    },
+    {
+      "text": "Tenha seu número de CPF e sua conta gov.br. O portal do Ministério do Trabalho explica como acessar a Carteira de Trabalho Digital.",
+      "url": "/assets/vozes/ptbr-71393b7864d274b49d8ba808.mp3",
+      "duration": 7.837,
+      "bytes": 47247,
+      "sha256": "5f2cb26e9e10033a2fc455af056d0de4fd26748cbb52041f481390b33faaa758"
+    },
+    {
+      "text": "Na página oficial, escolha o acesso pelo site ou o aplicativo indicado para seu celular.",
+      "url": "/assets/vozes/ptbr-c15876b6df899fd1768e09ce.mp3",
+      "duration": 5.669,
+      "bytes": 34238,
+      "sha256": "fb453bb6ef4197ade6cf2538b1cd96f3350794923cae39f7e06c0ad1734af2a7"
+    },
+    {
+      "text": "Entre com sua própria conta gov.br no canal oficial e confira suas informações. Não compartilhe sua senha.",
+      "url": "/assets/vozes/ptbr-93a0f933b6ea9c255f51958a.mp3",
+      "duration": 7.236,
+      "bytes": 43642,
+      "sha256": "c46dc7a6996d810d26676dc33f5575aac52b033cb2440302a7416c7937ef1dcb"
+    },
+    {
+      "text": "Se precisar de ajuda, use o canal de atendimento do Ministério do Trabalho informado na fonte oficial.",
+      "url": "/assets/vozes/ptbr-90f55a0837cde1f4f3b3a140.mp3",
+      "duration": 6.139,
+      "bytes": 37059,
+      "sha256": "f2a47bd330ae2a5c73338f51c45fe40e6d354e8a1f4057da060c47b70ca461b8"
+    },
+    {
+      "text": "Matrícula na Educação de Jovens e Adultos (EJA)",
+      "url": "/assets/vozes/ptbr-f7ca177ee5dec3ea4b61e1c6.mp3",
+      "duration": 3.474,
+      "bytes": 21072,
+      "sha256": "a9261553af60876c11983565a0284244dcf703d7e1eadb3b52517487486ae978"
+    },
+    {
+      "text": "Matrícula na Educação de Jovens e Adultos (EJA). Orientações oficiais e canais de matrícula da EJA na rede municipal.",
+      "url": "/assets/vozes/ptbr-02d4f94f77757a0eda6c3b33.mp3",
+      "duration": 8.02,
+      "bytes": 48344,
+      "sha256": "e587c387460d543b9fd6ea4480e57aa1c3f88fdecaa119f9dad9989eb1d564c3"
+    },
+    {
+      "text": "Matrícula na Educação de Jovens e Adultos (EJA). Orientações oficiais e canais de matrícula da EJA na rede municipal..",
+      "url": "/assets/vozes/ptbr-031b424b07eabb92504e5756.mp3",
+      "duration": 8.176,
+      "bytes": 49285,
+      "sha256": "f0aff5df4658c6d7dbb7b3a49b0fa7f699c73acb216cf7ae26bfb96b6cf0791e"
+    },
+    {
+      "text": "Matrícula na Educação de Jovens e Adultos (EJA). Orientações oficiais e canais de matrícula da EJA na rede municipal.. Abrangência: Município de São Paulo",
+      "url": "/assets/vozes/ptbr-c3d2bbbcc36d066bffdbbdc7.mp3",
+      "duration": 10.658,
+      "bytes": 64175,
+      "sha256": "158459cb7c1c2bd57506af19d2dd344bb624b2b88461b98b5a2a0de1873cb821"
+    },
+    {
+      "text": "Matrícula na Educação de Jovens e Adultos (EJA). Orientações oficiais e canais de matrícula da EJA na rede municipal.. Confira se a EJA da rede municipal de São Paulo atende ao que você precisa. A página orienta pessoas a partir de 15 anos que não concluíram o ensino fundamental. Escolha a solicitação de vaga on-line ou procure uma escola municipal com EJA ou um CIEJA. A fonte oficial oferece a consulta das unidades. Confira a lista de documentos na página: identificação, endereço e comprovante de escolaridade. Se não tiver o comprovante escolar, pergunte à unidade sobre a avaliação de classificação. Converse com a escola ou com a Diretoria Regional de Educação para esclarecer horários, classificação e continuidade da matrícula.",
+      "url": "/assets/vozes/ptbr-2ec2e0ce4ebace13901576bd.mp3",
+      "duration": 44.983,
+      "bytes": 270124,
+      "sha256": "3c7de516d9dfee2b6b864fea82d92317e7c86a873ebf5812deca4c082162e878"
+    },
+    {
+      "text": "Confira se a EJA da rede municipal de São Paulo atende ao que você precisa. A página orienta pessoas a partir de 15 anos que não concluíram o ensino fundamental.",
+      "url": "/assets/vozes/ptbr-7b0114246987c923610c6676.mp3",
+      "duration": 9.509,
+      "bytes": 57278,
+      "sha256": "a2186a9c5d87446782a8caf550b0acfde1f8073f2e079cd9971ed1da6edff934"
+    },
+    {
+      "text": "Escolha a solicitação de vaga on-line ou procure uma escola municipal com EJA ou um CIEJA. A fonte oficial oferece a consulta das unidades.",
+      "url": "/assets/vozes/ptbr-dfcea15292028e7febfb5ec6.mp3",
+      "duration": 8.699,
+      "bytes": 52419,
+      "sha256": "ec4f20cec3105c743fc04a85c95e5f09d07be9510825575a27580adb01c08cef"
+    },
+    {
+      "text": "Confira a lista de documentos na página: identificação, endereço e comprovante de escolaridade. Se não tiver o comprovante escolar, pergunte à unidade sobre a avaliação de classificação.",
+      "url": "/assets/vozes/ptbr-8fe7cd49ac3db5ae7a71d5d9.mp3",
+      "duration": 11.468,
+      "bytes": 69033,
+      "sha256": "f6ee2b0b353ec2722d71e3b99caa7e8a75141b6d293e212e27cb0d0322228f04"
+    },
+    {
+      "text": "Converse com a escola ou com a Diretoria Regional de Educação para esclarecer horários, classificação e continuidade da matrícula.",
+      "url": "/assets/vozes/ptbr-633a6f65dc5b066f10160d87.mp3",
+      "duration": 7.549,
+      "bytes": 45523,
+      "sha256": "7b6607c44e15f5adc41211f61e731142def407295d81486b90bf1c54099467ee"
+    },
+    {
+      "text": "Encceja — informações e certificação de estudos",
+      "url": "/assets/vozes/ptbr-264bdaa6860ee715db9aa531.mp3",
+      "duration": 3.527,
+      "bytes": 21386,
+      "sha256": "a2c82cb41b580ab89cffc9146a05f4f287723eec86fa591e083d7a49de34f426"
+    },
+    {
+      "text": "Encceja — informações e certificação de estudos. Informações oficiais sobre o exame para certificação; inscrições e aplicações dependem do edital vigente.",
+      "url": "/assets/vozes/ptbr-170f68b2126e02a9e517b233.mp3",
+      "duration": 10.423,
+      "bytes": 62764,
+      "sha256": "8a09ed422b0d385f7567fdc715d016863291316381da5b3ba0858c17e71c72ea"
+    },
+    {
+      "text": "Encceja — informações e certificação de estudos. Informações oficiais sobre o exame para certificação; inscrições e aplicações dependem do edital vigente..",
+      "url": "/assets/vozes/ptbr-af0929eafc601351d1c7fe7e.mp3",
+      "duration": 10.397,
+      "bytes": 62607,
+      "sha256": "82533d43c14162d988975e3b6f2ca52ac9b6eedd4ba81a27b058eadd482e1a63"
+    },
+    {
+      "text": "Encceja — informações e certificação de estudos. Informações oficiais sobre o exame para certificação; inscrições e aplicações dependem do edital vigente.. Abrangência: Brasil; aplicações específicas também no exterior",
+      "url": "/assets/vozes/ptbr-551cb7a298b3782090c2f27b.mp3",
+      "duration": 14.994,
+      "bytes": 90192,
+      "sha256": "37fd92d51916acb76edb88cd3f8a1158ea040548460f415d2837f80a44165389"
+    },
+    {
+      "text": "Encceja — informações e certificação de estudos. Informações oficiais sobre o exame para certificação; inscrições e aplicações dependem do edital vigente.. Acesse a página do Encceja no Inep e consulte o edital da edição que corresponde à sua situação. Confira requisitos, período de inscrição e locais de aplicação. O exame exige CPF e idade mínima de 15 anos para ensino fundamental ou 18 para ensino médio na data das provas. Quando houver inscrições abertas, use o sistema oficial indicado pelo Inep. Guarde as informações da sua inscrição. Acompanhe os avisos e as orientações de certificação na fonte oficial. Os calendários das diferentes edições podem variar.",
+      "url": "/assets/vozes/ptbr-14ce38a293eb7f7fa0f992d4.mp3",
+      "duration": 42.658,
+      "bytes": 256175,
+      "sha256": "b2c53d4a61a66862ab77025056777aa1e1e316f7838095122d958c7cdd378d5b"
+    },
+    {
+      "text": "Acesse a página do Encceja no Inep e consulte o edital da edição que corresponde à sua situação.",
+      "url": "/assets/vozes/ptbr-7ea94c801cab2896e762d55b.mp3",
+      "duration": 5.799,
+      "bytes": 35022,
+      "sha256": "a113c8574a1a01fc3b0b0016fa01b978018b4c955a39a335c93fb0b4773c051a"
+    },
+    {
+      "text": "Confira requisitos, período de inscrição e locais de aplicação. O exame exige CPF e idade mínima de 15 anos para ensino fundamental ou 18 para ensino médio na data das provas.",
+      "url": "/assets/vozes/ptbr-cffec90e2cc1fd0eba1bae47.mp3",
+      "duration": 11.468,
+      "bytes": 69033,
+      "sha256": "8cfb6b4dfe868d0690a77d7cf65aec9466e1927efeaad61707c410ec17c674c4"
+    },
+    {
+      "text": "Quando houver inscrições abertas, use o sistema oficial indicado pelo Inep. Guarde as informações da sua inscrição.",
+      "url": "/assets/vozes/ptbr-303f426d12a7f71c072397cf.mp3",
+      "duration": 7.34,
+      "bytes": 44269,
+      "sha256": "d4d01d81f231811d1bf566ade6eda35e04d4a3bd797dce1adb03c42636f825b3"
+    },
+    {
+      "text": "Acompanhe os avisos e as orientações de certificação na fonte oficial. Os calendários das diferentes edições podem variar.",
+      "url": "/assets/vozes/ptbr-26e6c240cae221fe8b31bd94.mp3",
+      "duration": 7.967,
+      "bytes": 48031,
+      "sha256": "2eb09e5fe4ed5839b508affbd012d389539acee48eb20fe15a1a1b373b86af11"
+    },
+    {
+      "text": "Caminho Digital / Escola do Trabalhador 4.0",
+      "url": "/assets/vozes/ptbr-4c84da410d0e0cd0dcf932e5.mp3",
+      "duration": 2.769,
+      "bytes": 16841,
+      "sha256": "8a6bd429b19314b7a7544e852754e2015b439bde9b240445cb779231d6458f1f"
+    },
+    {
+      "text": "Caminho Digital / Escola do Trabalhador 4.0. Canal oficial para conhecer e acessar cursos gratuitos de habilidades digitais; cadastro ocorre na plataforma externa.",
+      "url": "/assets/vozes/ptbr-01cef8e55bc6008f0ebb667d.mp3",
+      "duration": 9.77,
+      "bytes": 58846,
+      "sha256": "55c7c3f6c3add12738263762a6ea3e72c91b885f3660dd4b0bb0e8c4033ce53f"
+    },
+    {
+      "text": "Caminho Digital / Escola do Trabalhador 4.0. Canal oficial para conhecer e acessar cursos gratuitos de habilidades digitais; cadastro ocorre na plataforma externa..",
+      "url": "/assets/vozes/ptbr-a543a87b84232a54e8bb7ee5.mp3",
+      "duration": 9.927,
+      "bytes": 59786,
+      "sha256": "2d2d25592a4de65b2e35223c34c93d93739ede1cb4e9908102b2cb3c2c9a85ff"
+    },
+    {
+      "text": "Caminho Digital / Escola do Trabalhador 4.0. Canal oficial para conhecer e acessar cursos gratuitos de habilidades digitais; cadastro ocorre na plataforma externa.. Abrangência: Brasil",
+      "url": "/assets/vozes/ptbr-62573b10507dd881dd621c3c.mp3",
+      "duration": 11.938,
+      "bytes": 71855,
+      "sha256": "6cb0e6035312d023d0e11934ae66c701d77eab943c554eebfab78db8ab39e5e8"
+    },
+    {
+      "text": "Caminho Digital / Escola do Trabalhador 4.0. Canal oficial para conhecer e acessar cursos gratuitos de habilidades digitais; cadastro ocorre na plataforma externa.. Abra o serviço Caminho Digital no portal gov.br e siga o link oficial para a Escola do Trabalhador 4.0. Faça seu cadastro na plataforma de cursos indicada pelo Ministério do Trabalho. Consulte os cursos disponíveis e escolha o que combina com seu objetivo e seu tempo. O programa oferece cursos gratuitos de habilidades digitais. Faça a inscrição no curso escolhido dentro da plataforma e acompanhe por lá as atividades e as orientações de conclusão.",
+      "url": "/assets/vozes/ptbr-2736f4795236134b510a116c.mp3",
+      "duration": 37.094,
+      "bytes": 222790,
+      "sha256": "fb94732d94871357040d1f1104af6ec0b7d30a8e9058cb3f430b512e71f8ccc7"
+    },
+    {
+      "text": "Abra o serviço Caminho Digital no portal gov.br e siga o link oficial para a Escola do Trabalhador 4.0.",
+      "url": "/assets/vozes/ptbr-1ff1c3f7095105bca3d381ce.mp3",
+      "duration": 6.896,
+      "bytes": 41605,
+      "sha256": "9b4189380dd385e8b713c1c34b517b059e7d801070f3583c84990cd6d25e9fd9"
+    },
+    {
+      "text": "Faça seu cadastro na plataforma de cursos indicada pelo Ministério do Trabalho.",
+      "url": "/assets/vozes/ptbr-48e494b34dea213de00effc6.mp3",
+      "duration": 4.336,
+      "bytes": 26245,
+      "sha256": "c7a4bc8aae81cea81027be5d21ff1fc42c9f01179f19eca84c9ac2e86040f453"
+    },
+    {
+      "text": "Consulte os cursos disponíveis e escolha o que combina com seu objetivo e seu tempo. O programa oferece cursos gratuitos de habilidades digitais.",
+      "url": "/assets/vozes/ptbr-e59b5be65126e1e211d2637e.mp3",
+      "duration": 8.594,
+      "bytes": 51792,
+      "sha256": "f1c829334b65b4894f55313dfcbec37e7964f145e3bae88c516f90cdadfa0e6e"
+    },
+    {
+      "text": "Faça a inscrição no curso escolhido dentro da plataforma e acompanhe por lá as atividades e as orientações de conclusão.",
+      "url": "/assets/vozes/ptbr-8226b0c4b8c9c46146098ae8.mp3",
+      "duration": 7.262,
+      "bytes": 43799,
+      "sha256": "57cd3ce29192e306d894c9261dab59c67bb90750535b070bd15b862d48d7910a"
+    },
+    {
+      "text": "Busca de emprego no Sistema Nacional de Emprego (Sine)",
+      "url": "/assets/vozes/ptbr-ad900d34f4ad8c0ec83eee05.mp3",
+      "duration": 3.265,
+      "bytes": 19819,
+      "sha256": "737e48a736bbdf094b657b67d261d17ad7870c5258a896da9b2af731827d2f21"
+    },
+    {
+      "text": "Busca de emprego no Sistema Nacional de Emprego (Sine). Orientações para intermediação de mão de obra e acesso ao Portal Emprega Brasil e postos da rede.",
+      "url": "/assets/vozes/ptbr-5eee509e5ebbec5754d08443.mp3",
+      "duration": 9.195,
+      "bytes": 55397,
+      "sha256": "c46b73daea78158f4cefd0866cc6fddcf0843ddaa0e3e933863f2a5f209a4a1f"
+    },
+    {
+      "text": "Busca de emprego no Sistema Nacional de Emprego (Sine). Orientações para intermediação de mão de obra e acesso ao Portal Emprega Brasil e postos da rede..",
+      "url": "/assets/vozes/ptbr-669ab004a4e89b8efb989c42.mp3",
+      "duration": 9.195,
+      "bytes": 55397,
+      "sha256": "f8c7c551df7057033866179d104f5827fb7ac064f482061e6cb32934267c64c8"
+    },
+    {
+      "text": "Busca de emprego no Sistema Nacional de Emprego (Sine). Orientações para intermediação de mão de obra e acesso ao Portal Emprega Brasil e postos da rede.. Abrangência: Brasil",
+      "url": "/assets/vozes/ptbr-1b756dc6d3ad25a3ad3ed8de.mp3",
+      "duration": 11.024,
+      "bytes": 66369,
+      "sha256": "244862b6e59d4b016aff031b6d4ae3008ca5ac54e64dd6fa57caae8f9ef0f356"
+    },
+    {
+      "text": "Busca de emprego no Sistema Nacional de Emprego (Sine). Orientações para intermediação de mão de obra e acesso ao Portal Emprega Brasil e postos da rede.. Na página oficial do Sine, escolha o Portal Emprega Brasil ou consulte os postos de atendimento para buscar ajuda presencial. Faça ou confira seu cadastro no canal escolhido. Para atendimento presencial, confira antes a documentação pessoal necessária. Consulte as vagas que o serviço apresentar para seu cadastro e leia os requisitos de cada oportunidade. Siga pelo próprio canal do Sine as orientações de candidatura e de entrevista. O encaminhamento não garante contratação.",
+      "url": "/assets/vozes/ptbr-4f87d695a985bdf53f39134e.mp3",
+      "duration": 38.165,
+      "bytes": 229216,
+      "sha256": "cbfbf4b8255edc48107f9611ef93d786501181274333fdd79e5f4a364f4155f8"
+    },
+    {
+      "text": "Na página oficial do Sine, escolha o Portal Emprega Brasil ou consulte os postos de atendimento para buscar ajuda presencial.",
+      "url": "/assets/vozes/ptbr-14a160ce4e240759a2121a05.mp3",
+      "duration": 8.176,
+      "bytes": 49285,
+      "sha256": "6b50e03b459804a906276898bc46b7c20579c58e3524765218fe298ab7760a2f"
+    },
+    {
+      "text": "Faça ou confira seu cadastro no canal escolhido. Para atendimento presencial, confira antes a documentação pessoal necessária.",
+      "url": "/assets/vozes/ptbr-3c270c381a5b69642d594bd2.mp3",
+      "duration": 7.863,
+      "bytes": 47404,
+      "sha256": "189d610e952de546b7c9c2de194200e5821e4947d4381059ef31b8786148c3d8"
+    },
+    {
+      "text": "Consulte as vagas que o serviço apresentar para seu cadastro e leia os requisitos de cada oportunidade.",
+      "url": "/assets/vozes/ptbr-1ddbc2651d5738457213b73a.mp3",
+      "duration": 6.034,
+      "bytes": 36432,
+      "sha256": "fd5cfe8d5c368cb8c6e382b1784411c3185e0355205b8221fa2f0d7d6401ad6b"
+    },
+    {
+      "text": "Siga pelo próprio canal do Sine as orientações de candidatura e de entrevista. O encaminhamento não garante contratação.",
+      "url": "/assets/vozes/ptbr-e86fb0d6997e40a14632dc59.mp3",
+      "duration": 6.87,
+      "bytes": 41448,
+      "sha256": "021ff74a7c84e3c923a3ebdf7479949e7e4105ef37d6dd5ed4607dcfe57a906e"
+    },
+    {
+      "text": "Centro de Apoio ao Trabalho e Empreendedorismo (Cate)",
+      "url": "/assets/vozes/ptbr-3adfdb4a4654c9bfeee34351.mp3",
+      "duration": 3.265,
+      "bytes": 19819,
+      "sha256": "53676a1ec4403bbb87f273fe440ad5be153140777e620671b1226feb421ab5a9"
+    },
+    {
+      "text": "Centro de Apoio ao Trabalho e Empreendedorismo (Cate). Apresentação da rede municipal de orientação e inserção no mercado de trabalho; consultar unidades e agendamento no portal.",
+      "url": "/assets/vozes/ptbr-7a5b28d5463267ef37ab9e47.mp3",
+      "duration": 11.128,
+      "bytes": 66996,
+      "sha256": "d00b36a7642a177cc840ff03b8ccba17a569847d44e110ba172c4932b5c9bce1"
+    },
+    {
+      "text": "Centro de Apoio ao Trabalho e Empreendedorismo (Cate). Apresentação da rede municipal de orientação e inserção no mercado de trabalho; consultar unidades e agendamento no portal..",
+      "url": "/assets/vozes/ptbr-862c9f4214ce520b47d09d1a.mp3",
+      "duration": 11.024,
+      "bytes": 66369,
+      "sha256": "e37031caa798505695b5b6bd6bf0f56094323f06f570d614b3e8ace929dfa50b"
+    },
+    {
+      "text": "Centro de Apoio ao Trabalho e Empreendedorismo (Cate). Apresentação da rede municipal de orientação e inserção no mercado de trabalho; consultar unidades e agendamento no portal.. Abrangência: Município de São Paulo",
+      "url": "/assets/vozes/ptbr-5c216c17b9a252699fb68027.mp3",
+      "duration": 14.054,
+      "bytes": 84550,
+      "sha256": "4cd8db891018fef60fd94ce7215fd064f9d25e3ba5d224f25eaabc9ae95e7c7e"
+    },
+    {
+      "text": "Centro de Apoio ao Trabalho e Empreendedorismo (Cate). Apresentação da rede municipal de orientação e inserção no mercado de trabalho; consultar unidades e agendamento no portal.. Abra a página do Cate da Prefeitura de São Paulo e escolha o atendimento que você procura, como orientação para trabalho ou busca de vagas. Consulte a lista oficial de unidades e confirme como solicitar atendimento. A página também informa canais de agendamento. Confira os documentos exigidos para seu atendimento. A fonte lista identificação, CPF, Carteira de Trabalho e informações de registro do trabalhador. Use o Portal Cate ou a unidade indicada para seguir as orientações e consultar oportunidades. A disponibilidade de vagas depende dos anúncios do serviço.",
+      "url": "/assets/vozes/ptbr-4c4e94418ddc7bc7c572aca0.mp3",
+      "duration": 45.14,
+      "bytes": 271064,
+      "sha256": "384f388895ce97d090d5a2af276e49921801b4b2dafacad70a6c11645a7d963c"
+    },
+    {
+      "text": "Abra a página do Cate da Prefeitura de São Paulo e escolha o atendimento que você procura, como orientação para trabalho ou busca de vagas.",
+      "url": "/assets/vozes/ptbr-6527e89ebf87441006720e01.mp3",
+      "duration": 8.568,
+      "bytes": 51636,
+      "sha256": "40c3b822747017981559e7dc429d174c371e0eb841cf2a40deb2a6489f33ec09"
+    },
+    {
+      "text": "Consulte a lista oficial de unidades e confirme como solicitar atendimento. A página também informa canais de agendamento.",
+      "url": "/assets/vozes/ptbr-a59d7f1a23c91b69b5c7ff27.mp3",
+      "duration": 7.262,
+      "bytes": 43799,
+      "sha256": "38ee0d653634c0a93340d1fdcc20127b9c1da54fdc960188ca70c9b93778a776"
+    },
+    {
+      "text": "Confira os documentos exigidos para seu atendimento. A fonte lista identificação, CPF, Carteira de Trabalho e informações de registro do trabalhador.",
+      "url": "/assets/vozes/ptbr-64cf2b200aa11c6ebffb0503.mp3",
+      "duration": 8.986,
+      "bytes": 54143,
+      "sha256": "3a63879a132e771cbd480aa989a3203ae45fdf599fc772b8bd65d9d0eb5567f8"
+    },
+    {
+      "text": "Use o Portal Cate ou a unidade indicada para seguir as orientações e consultar oportunidades. A disponibilidade de vagas depende dos anúncios do serviço.",
+      "url": "/assets/vozes/ptbr-6030399caabefc7478759ee6.mp3",
+      "duration": 9.613,
+      "bytes": 57905,
+      "sha256": "b0ee9761f7ed7a3b63e6d61a19a8a4e069d5ba89d8d8d31c0de972f8562cc278"
+    },
+    {
+      "text": "Centro de Referência de Assistência Social (CRAS)",
+      "url": "/assets/vozes/ptbr-8a98299c3b22415909983c53.mp3",
+      "duration": 3.082,
+      "bytes": 18721,
+      "sha256": "66d833454315aa2e2befc294a36fd556fa696f223d9a7a0f9be5b14839e9b371"
+    },
+    {
+      "text": "Centro de Referência de Assistência Social (CRAS). Perguntas frequentes sobre os CRAS e acesso à lista oficial de unidades; serviços de proteção social básica e orientação às famílias.",
+      "url": "/assets/vozes/ptbr-d0bf291599f14da288d583cd.mp3",
+      "duration": 11.755,
+      "bytes": 70757,
+      "sha256": "0fe6eefc4b68d4a6c17c5fc0c9c1a67e42ff39dd94c1557b5170c8e4a774ad76"
+    },
+    {
+      "text": "Centro de Referência de Assistência Social (CRAS). Perguntas frequentes sobre os CRAS e acesso à lista oficial de unidades; serviços de proteção social básica e orientação às famílias..",
+      "url": "/assets/vozes/ptbr-d617596c01d1aea9b916e8f4.mp3",
+      "duration": 11.86,
+      "bytes": 71384,
+      "sha256": "e82395355878a8cbd1b84dd99a31781539edc22d375654643571125f7597b027"
+    },
+    {
+      "text": "Centro de Referência de Assistência Social (CRAS). Perguntas frequentes sobre os CRAS e acesso à lista oficial de unidades; serviços de proteção social básica e orientação às famílias.. Abrangência: Município de São Paulo",
+      "url": "/assets/vozes/ptbr-45ebb9235034bedf4021085d.mp3",
+      "duration": 14.393,
+      "bytes": 86588,
+      "sha256": "867b6de6cdd7244b47b5c4840112a2b076fd57638247b9e25077f531662a4003"
+    },
+    {
+      "text": "Centro de Referência de Assistência Social (CRAS). Perguntas frequentes sobre os CRAS e acesso à lista oficial de unidades; serviços de proteção social básica e orientação às famílias.. Abra as perguntas frequentes da assistência social da Prefeitura de São Paulo e localize a seção sobre CRAS. Use o link oficial de endereços para identificar a unidade que atende seu território. Confirme o atendimento antes de ir. Explique à equipe do CRAS a orientação ou o apoio de que sua família precisa. A unidade informa os serviços e encaminhamentos aplicáveis. Se a necessidade for inscrição ou atualização do Cadastro Único, confira as instruções de agendamento indicadas pela Prefeitura.",
+      "url": "/assets/vozes/ptbr-5353c93233e3aba5bcc6bec0.mp3",
+      "duration": 41.091,
+      "bytes": 246770,
+      "sha256": "fd3f4deec0585f18cbf13718b2a8f848cebd60d764781fffe4845ab7e88b4128"
+    },
+    {
+      "text": "Abra as perguntas frequentes da assistência social da Prefeitura de São Paulo e localize a seção sobre CRAS.",
+      "url": "/assets/vozes/ptbr-96375d7d210dbed290c7b252.mp3",
+      "duration": 6.922,
+      "bytes": 41761,
+      "sha256": "13bd336f46503fc43baf970d7713b403edbd2a65438f2318672a785200f1a229"
+    },
+    {
+      "text": "Use o link oficial de endereços para identificar a unidade que atende seu território. Confirme o atendimento antes de ir.",
+      "url": "/assets/vozes/ptbr-d67ccf7b479c7069de656000.mp3",
+      "duration": 6.74,
+      "bytes": 40664,
+      "sha256": "6b079bd532d25c7ea963257932732663a0fb6272ddaa90bae07119fc770a2842"
+    },
+    {
+      "text": "Explique à equipe do CRAS a orientação ou o apoio de que sua família precisa. A unidade informa os serviços e encaminhamentos aplicáveis.",
+      "url": "/assets/vozes/ptbr-29d1554ce5e9620dea591aa6.mp3",
+      "duration": 7.993,
+      "bytes": 48188,
+      "sha256": "7baa8d3136e8cfe265ee0004a4c2e0e82f6696b2ab34ce55059e07a7b5674120"
+    },
+    {
+      "text": "Se a necessidade for inscrição ou atualização do Cadastro Único, confira as instruções de agendamento indicadas pela Prefeitura.",
+      "url": "/assets/vozes/ptbr-e9fcb38fed1c06812c26da3f.mp3",
+      "duration": 7.602,
+      "bytes": 45837,
+      "sha256": "2d1648c936e98afe7f9606cfde202cb4567587bd3a1dea2ece141a39aaaed4b1"
+    },
+    {
+      "text": "Cadastro Único — orientação e agendamento municipal",
+      "url": "/assets/vozes/ptbr-0f0a7d852e458535017c75c3.mp3",
+      "duration": 3.605,
+      "bytes": 21856,
+      "sha256": "a48c10588fdf3d8364ddd0fdfc6f58348da632173922ff0ae43e7bc9f7a6edcf"
+    },
+    {
+      "text": "Cadastro Único — orientação e agendamento municipal. Informações sobre o cadastro e canais municipais de atendimento; a concessão de benefícios depende das regras de cada programa.",
+      "url": "/assets/vozes/ptbr-f7f405f342a57792a32be7ef.mp3",
+      "duration": 11.076,
+      "bytes": 66682,
+      "sha256": "69b9735eea7231747bd032e0e5c1ec7b6ebc7ca15d90dfec5159174e04640969"
+    },
+    {
+      "text": "Cadastro Único — orientação e agendamento municipal. Informações sobre o cadastro e canais municipais de atendimento; a concessão de benefícios depende das regras de cada programa..",
+      "url": "/assets/vozes/ptbr-0836ba28d1bebcee0449458c.mp3",
+      "duration": 11.128,
+      "bytes": 66996,
+      "sha256": "229634d4bbfd1ebaf76a04e248a81407f72443d7be62df60c84c8271112cf3f1"
+    },
+    {
+      "text": "Cadastro Único — orientação e agendamento municipal. Informações sobre o cadastro e canais municipais de atendimento; a concessão de benefícios depende das regras de cada programa.. Abrangência: Município de São Paulo",
+      "url": "/assets/vozes/ptbr-5414a12c944d64a03e66aacf.mp3",
+      "duration": 13.688,
+      "bytes": 82356,
+      "sha256": "dc845d4e51c558613db75f2ac9ee50e53f5420aa450a1c44654fce790bb4b36c"
+    },
+    {
+      "text": "Cadastro Único — orientação e agendamento municipal. Informações sobre o cadastro e canais municipais de atendimento; a concessão de benefícios depende das regras de cada programa.. Leia na página municipal do Cadastro Único os critérios e as orientações para inscrição ou atualização da sua família. Confira os canais oficiais para agendar a entrevista, como a Agenda CadÚnico e o Descomplica SP. Há regras específicas para algumas situações familiares. Prepare os documentos pedidos para os moradores da casa e confira o local e o horário do atendimento. A lista oficial deve ser consultada antes da entrevista. Realize a entrevista pelo procedimento indicado pelo município e acompanhe as orientações recebidas. A inscrição no cadastro não garante a concessão de benefício.",
+      "url": "/assets/vozes/ptbr-412d627f85d26a7551cd1481.mp3",
+      "duration": 46.864,
+      "bytes": 281409,
+      "sha256": "e1702c5892cb9ff5e8f956e37a0fcf06bb7de130b36220fd0646275364f09791"
+    },
+    {
+      "text": "Leia na página municipal do Cadastro Único os critérios e as orientações para inscrição ou atualização da sua família.",
+      "url": "/assets/vozes/ptbr-05ee554f58be852e57052b0f.mp3",
+      "duration": 7.262,
+      "bytes": 43799,
+      "sha256": "638d6a93327c4868141af25c38c6dd773a0f1185e1684f33a8810c40f76e1143"
+    },
+    {
+      "text": "Confira os canais oficiais para agendar a entrevista, como a Agenda CadÚnico e o Descomplica SP. Há regras específicas para algumas situações familiares.",
+      "url": "/assets/vozes/ptbr-ea3b0ead021ad2b9097d6784.mp3",
+      "duration": 9.665,
+      "bytes": 58219,
+      "sha256": "27ce5b3a9b6bba3bdc03386fe08538723169f70116fb7423ef6f5cebe1742a13"
+    },
+    {
+      "text": "Prepare os documentos pedidos para os moradores da casa e confira o local e o horário do atendimento. A lista oficial deve ser consultada antes da entrevista.",
+      "url": "/assets/vozes/ptbr-ce53e989d77511ce17c6b5b1.mp3",
+      "duration": 9.509,
+      "bytes": 57278,
+      "sha256": "027a11d1880c7ae8fad073ce0661b4110f0b65612098122b2b9bfd781ebd9873"
+    },
+    {
+      "text": "Realize a entrevista pelo procedimento indicado pelo município e acompanhe as orientações recebidas. A inscrição no cadastro não garante a concessão de benefício.",
+      "url": "/assets/vozes/ptbr-2368cec37a5328fa11945f43.mp3",
+      "duration": 9.509,
+      "bytes": 57278,
+      "sha256": "00f37470100acbb6b03b75d77d7398765b9d4a73797ea79cfa23ca56277e7b8d"
+    },
+    {
+      "text": "Centros de Atenção Psicossocial (CAPS) de São Paulo",
+      "url": "/assets/vozes/ptbr-6e2dfe861a703409809300a8.mp3",
+      "duration": 3.265,
+      "bytes": 19819,
+      "sha256": "c4723b4f991a607e9e79fc759c568f61ced3df4812e248fc19877fb5890f2118"
+    },
+    {
+      "text": "Centros de Atenção Psicossocial (CAPS) de São Paulo. Orientação para encontrar acolhimento em saúde mental nos CAPS do município de São Paulo. A equipe da unidade avalia a necessidade de cuidado.",
+      "url": "/assets/vozes/ptbr-2d4a6fa2ad42d28943152bec.mp3",
+      "duration": 11.546,
+      "bytes": 69503,
+      "sha256": "9432d2cc9c23fa97da3ccd5f708adea852b2edff4d5a7272e1ab75f858e926ae"
+    },
+    {
+      "text": "Centros de Atenção Psicossocial (CAPS) de São Paulo. Orientação para encontrar acolhimento em saúde mental nos CAPS do município de São Paulo. A equipe da unidade avalia a necessidade de cuidado..",
+      "url": "/assets/vozes/ptbr-41fa1fd4e734ef56351adf0f.mp3",
+      "duration": 11.572,
+      "bytes": 69660,
+      "sha256": "9b1e51e2699c21faab432799682d022264a601be2bdc0e2e13b823a30b1bca41"
+    },
+    {
+      "text": "Centros de Atenção Psicossocial (CAPS) de São Paulo. Orientação para encontrar acolhimento em saúde mental nos CAPS do município de São Paulo. A equipe da unidade avalia a necessidade de cuidado.. Abrangência: Município de São Paulo — SP",
+      "url": "/assets/vozes/ptbr-3ec4f48fc64b5e1813a3a5a4.mp3",
+      "duration": 14.785,
+      "bytes": 88939,
+      "sha256": "1e4d5fb98b829629157b6bddad2334038f394135ecedcb650d08c2602cad255f"
+    },
+    {
+      "text": "Centros de Atenção Psicossocial (CAPS) de São Paulo. Orientação para encontrar acolhimento em saúde mental nos CAPS do município de São Paulo. A equipe da unidade avalia a necessidade de cuidado.. Abra a fonte oficial da Secretaria Municipal da Saúde. Localize a lista de endereços e contatos por território. Confira a unidade de referência para você e como chegar. Procure o acolhimento da equipe de saúde. Ela avalia suas necessidades e orienta o cuidado.",
+      "url": "/assets/vozes/ptbr-34ffa228c3a2f4467cfe2908.mp3",
+      "duration": 27.481,
+      "bytes": 165112,
+      "sha256": "a724f4db1b2a1ae395b55c08bdce044abdb8cb7e292ab98388efc27cd6826b02"
+    },
+    {
+      "text": "Abra a fonte oficial da Secretaria Municipal da Saúde.",
+      "url": "/assets/vozes/ptbr-34f7c62acfc6445f082edc47.mp3",
+      "duration": 3.631,
+      "bytes": 22013,
+      "sha256": "552240110b64b9d26ddeaeafa9e06ce9c53c96a35f2aa23497e01819d364a959"
+    },
+    {
+      "text": "Localize a lista de endereços e contatos por território.",
+      "url": "/assets/vozes/ptbr-b79b8cf973af8f215c8ab1b4.mp3",
+      "duration": 3.5,
+      "bytes": 21229,
+      "sha256": "40fa8fb614cb10e64d897ca39b45eae52cdd6f7bd634b43967510b9061bd0ab0"
+    },
+    {
+      "text": "Confira a unidade de referência para você e como chegar.",
+      "url": "/assets/vozes/ptbr-e49c5f763510642e83de7528.mp3",
+      "duration": 3.422,
+      "bytes": 20759,
+      "sha256": "4637cf49dff1d4121d0b696f803bab72279e7514120a627c5925548f9bca818d"
+    },
+    {
+      "text": "Procure o acolhimento da equipe de saúde. Ela avalia suas necessidades e orienta o cuidado.",
+      "url": "/assets/vozes/ptbr-94a20c44ac2117450ee705d8.mp3",
+      "duration": 5.564,
+      "bytes": 33611,
+      "sha256": "8af6fe8acfefc75302cb8f4287cc6185a067a74d6729199dd7fcbed5af36e9f7"
+    },
+    {
+      "text": "Escritórios Sociais — orientação para pessoas egressas e familiares",
+      "url": "/assets/vozes/ptbr-43dd4aa76d35f47a02181a35.mp3",
+      "duration": 4.362,
+      "bytes": 26401,
+      "sha256": "49c98030af8f3a8fd87e263569837ea9e999e1b31cfdbf0ecd1acbf390460c5d"
+    },
+    {
+      "text": "Escritórios Sociais — orientação para pessoas egressas e familiares. Informações sobre os Escritórios Sociais, que articulam acesso a políticas públicas para pessoas que deixam o sistema prisional e seus familiares.",
+      "url": "/assets/vozes/ptbr-4f1ed892db820e3a2ee7eabf.mp3",
+      "duration": 13.244,
+      "bytes": 79691,
+      "sha256": "a9b8905c56bccf4a0d0ea4e1ef332034d5f786cd7cc9677e5dcf1c33b3388ad9"
+    },
+    {
+      "text": "Escritórios Sociais — orientação para pessoas egressas e familiares. Informações sobre os Escritórios Sociais, que articulam acesso a políticas públicas para pessoas que deixam o sistema prisional e seus familiares..",
+      "url": "/assets/vozes/ptbr-94c2391bf5301d33c3d244ee.mp3",
+      "duration": 13.375,
+      "bytes": 80475,
+      "sha256": "e71f9ba6c027c3dbf2e8531a4699e1d1b1e8dc51940eb4d1fe81bfc9ca243277"
+    },
+    {
+      "text": "Escritórios Sociais — orientação para pessoas egressas e familiares. Informações sobre os Escritórios Sociais, que articulam acesso a políticas públicas para pessoas que deixam o sistema prisional e seus familiares.. Abrangência: Orientação nacional — atendimento depende da rede existente na localidade",
+      "url": "/assets/vozes/ptbr-d522fe7188cd7c42da71ea9f.mp3",
+      "duration": 18.913,
+      "bytes": 113703,
+      "sha256": "116c01f4163f8f535bb724454ce7ec68315d9f2a33cc8a1cfe2b02407748ce36"
+    },
+    {
+      "text": "Escritórios Sociais — orientação para pessoas egressas e familiares. Informações sobre os Escritórios Sociais, que articulam acesso a políticas públicas para pessoas que deixam o sistema prisional e seus familiares.. Abra a página oficial do Conselho Nacional de Justiça. Conheça a proposta dos Escritórios Sociais e os serviços de apoio às pessoas egressas e suas famílias. Consulte a rede de apoio da sua região para confirmar a unidade e o canal de atendimento. Confirme com a instituição como acessar o serviço. O ReintegraFacil não agenda atendimentos nem decide benefícios.",
+      "url": "/assets/vozes/ptbr-ee22e6dce299e295ba318ad7.mp3",
+      "duration": 34.403,
+      "bytes": 206646,
+      "sha256": "6dec44742efef0bea4b5bf45efc9a1f294191d38d33c20056fa8a0613b9920a1"
+    },
+    {
+      "text": "Abra a página oficial do Conselho Nacional de Justiça.",
+      "url": "/assets/vozes/ptbr-e67790f0814099df185ee459.mp3",
+      "duration": 3.527,
+      "bytes": 21386,
+      "sha256": "4a6ea5f131dc9af32d3594904108f0855237cdbdc869780919545bcf25ec6c80"
+    },
+    {
+      "text": "Conheça a proposta dos Escritórios Sociais e os serviços de apoio às pessoas egressas e suas famílias.",
+      "url": "/assets/vozes/ptbr-d2c55f633e57182a5b0347b5.mp3",
+      "duration": 6.452,
+      "bytes": 38940,
+      "sha256": "91f26a1bb558d9e7617a6c9777d451d8a67eaea403e82709531fc0e7c8831662"
+    },
+    {
+      "text": "Consulte a rede de apoio da sua região para confirmar a unidade e o canal de atendimento.",
+      "url": "/assets/vozes/ptbr-0d4a454d946331cd421f5891.mp3",
+      "duration": 5.12,
+      "bytes": 30947,
+      "sha256": "50069a750a9dbc074cf6a6455f383ae37e744ed5470161dd6b0f430ac5cd3b5d"
+    },
+    {
+      "text": "Confirme com a instituição como acessar o serviço. O ReintegraFacil não agenda atendimentos nem decide benefícios.",
+      "url": "/assets/vozes/ptbr-027aa2057f531324de0781eb.mp3",
+      "duration": 6.531,
+      "bytes": 39410,
+      "sha256": "8cc30057631faeee1a3363daff4f6785ad2965877b99f3f82662d18bdea84769"
+    }
+  ],
+  "complete": true
+}

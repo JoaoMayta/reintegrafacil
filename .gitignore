@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+private/*_config.php
+private/busca_ia_cache/
+*.log
+*.sql
+*.sqlite
+.DS_Store
+Thumbs.db

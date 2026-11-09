@@ -1,0 +1,61 @@
+{
+    "CAT01": [
+        "Abra a página da Receita Federal e escolha o canal de inscrição no CPF adequado à sua situação, como residente no Brasil ou no exterior.",
+        "Confira na página os documentos exigidos para sua idade e situação. As regras podem ser diferentes para menores e representantes.",
+        "Preencha o formulário indicado pela Receita com os dados dos seus documentos. Se precisar, consulte os canais presenciais ou por e-mail listados na mesma fonte.",
+        "Confira o resultado e siga as orientações do canal escolhido. O atendimento em unidades conveniadas pode ter taxa; consulte as condições antes de ir."
+    ],
+    "CAT02": [
+        "Abra a página de emissão da CIN da Secretaria da Segurança Pública de São Paulo.",
+        "Confira no canal oficial os documentos exigidos e as condições aplicáveis ao seu caso.",
+        "Siga as orientações de agendamento e atendimento da instituição. Confirme a unidade, a data e os documentos antes de se deslocar."
+    ],
+    "CAT03": [
+        "Tenha seu número de CPF e sua conta gov.br. O portal do Ministério do Trabalho explica como acessar a Carteira de Trabalho Digital.",
+        "Na página oficial, escolha o acesso pelo site ou o aplicativo indicado para seu celular.",
+        "Entre com sua própria conta gov.br no canal oficial e confira suas informações. Não compartilhe sua senha.",
+        "Se precisar de ajuda, use o canal de atendimento do Ministério do Trabalho informado na fonte oficial."
+    ],
+    "CAT04": [
+        "Confira se a EJA da rede municipal de São Paulo atende ao que você precisa. A página orienta pessoas a partir de 15 anos que não concluíram o ensino fundamental.",
+        "Escolha a solicitação de vaga on-line ou procure uma escola municipal com EJA ou um CIEJA. A fonte oficial oferece a consulta das unidades.",
+        "Confira a lista de documentos na página: identificação, endereço e comprovante de escolaridade. Se não tiver o comprovante escolar, pergunte à unidade sobre a avaliação de classificação.",
+        "Converse com a escola ou com a Diretoria Regional de Educação para esclarecer horários, classificação e continuidade da matrícula."
+    ],
+    "CAT05": [
+        "Acesse a página do Encceja no Inep e consulte o edital da edição que corresponde à sua situação.",
+        "Confira requisitos, período de inscrição e locais de aplicação. O exame exige CPF e idade mínima de 15 anos para ensino fundamental ou 18 para ensino médio na data das provas.",
+        "Quando houver inscrições abertas, use o sistema oficial indicado pelo Inep. Guarde as informações da sua inscrição.",
+        "Acompanhe os avisos e as orientações de certificação na fonte oficial. Os calendários das diferentes edições podem variar."
+    ],
+    "CAT06": [
+        "Abra o serviço Caminho Digital no portal gov.br e siga o link oficial para a Escola do Trabalhador 4.0.",
+        "Faça seu cadastro na plataforma de cursos indicada pelo Ministério do Trabalho.",
+        "Consulte os cursos disponíveis e escolha o que combina com seu objetivo e seu tempo. O programa oferece cursos gratuitos de habilidades digitais.",
+        "Faça a inscrição no curso escolhido dentro da plataforma e acompanhe por lá as atividades e as orientações de conclusão."
+    ],
+    "CAT07": [
+        "Na página oficial do Sine, escolha o Portal Emprega Brasil ou consulte os postos de atendimento para buscar ajuda presencial.",
+        "Faça ou confira seu cadastro no canal escolhido. Para atendimento presencial, confira antes a documentação pessoal necessária.",
+        "Consulte as vagas que o serviço apresentar para seu cadastro e leia os requisitos de cada oportunidade.",
+        "Siga pelo próprio canal do Sine as orientações de candidatura e de entrevista. O encaminhamento não garante contratação."
+    ],
+    "CAT08": [
+        "Abra a página do Cate da Prefeitura de São Paulo e escolha o atendimento que você procura, como orientação para trabalho ou busca de vagas.",
+        "Consulte a lista oficial de unidades e confirme como solicitar atendimento. A página também informa canais de agendamento.",
+        "Confira os documentos exigidos para seu atendimento. A fonte lista identificação, CPF, Carteira de Trabalho e informações de registro do trabalhador.",
+        "Use o Portal Cate ou a unidade indicada para seguir as orientações e consultar oportunidades. A disponibilidade de vagas depende dos anúncios do serviço."
+    ],
+    "CAT09": [
+        "Abra as perguntas frequentes da assistência social da Prefeitura de São Paulo e localize a seção sobre CRAS.",
+        "Use o link oficial de endereços para identificar a unidade que atende seu território. Confirme o atendimento antes de ir.",
+        "Explique à equipe do CRAS a orientação ou o apoio de que sua família precisa. A unidade informa os serviços e encaminhamentos aplicáveis.",
+        "Se a necessidade for inscrição ou atualização do Cadastro Único, confira as instruções de agendamento indicadas pela Prefeitura."
+    ],
+    "CAT10": [
+        "Leia na página municipal do Cadastro Único os critérios e as orientações para inscrição ou atualização da sua família.",
+        "Confira os canais oficiais para agendar a entrevista, como a Agenda CadÚnico e o Descomplica SP. Há regras específicas para algumas situações familiares.",
+        "Prepare os documentos pedidos para os moradores da casa e confira o local e o horário do atendimento. A lista oficial deve ser consultada antes da entrevista.",
+        "Realize a entrevista pelo procedimento indicado pelo município e acompanhe as orientações recebidas. A inscrição no cadastro não garante a concessão de benefício."
+    ]
+}

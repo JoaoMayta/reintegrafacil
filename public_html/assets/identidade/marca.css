@@ -1,0 +1,7 @@
+/* Identidade única. O SVG contém o desenho e letras em curvas, sem fonte externa. */
+a.rf-brand{display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:0!important;width:220px!important;max-width:100%!important;flex:0 1 220px;min-height:57px;padding:0!important;margin:0;text-decoration:none!important;line-height:1!important;letter-spacing:normal!important;border:0!important;background:transparent!important;box-sizing:border-box}
+a.rf-brand>img.rf-logo{display:block!important;width:220px!important;max-width:100%!important;height:auto!important;aspect-ratio:340/88;object-fit:contain!important;margin:0!important;padding:0!important;border:0!important;filter:none!important;transform:none!important;opacity:1!important}
+a.rf-brand:focus-visible{outline:3px solid #005fcc!important;outline-offset:5px;box-shadow:0 0 0 2px #fff}
+.rf-brand-bar{display:flex;align-items:center;justify-content:center;padding:18px 16px;max-width:100%}.rf-brand-bar a{margin:auto}.rf-brand-context{font:inherit}
+@media(max-width:700px){a.rf-brand{width:176px!important;flex-basis:176px;min-height:46px}a.rf-brand>img.rf-logo{width:176px!important}.app-header .header-inner{flex-wrap:wrap!important}.app-header .header-actions{margin-left:auto}.prototype-nav>a.rf-brand{width:176px!important}}
+@media(forced-colors:active){a.rf-brand{forced-color-adjust:none}a.rf-brand:focus-visible{outline:3px solid Highlight!important}}
